@@ -16,12 +16,13 @@ function onDocumentReady() {
   console.log('Document ready.');
 }
 ```
-
-
+```html
     <p><a href="exercises/chapter1/exercise6">Uppgift 1.6 Webbsida med fel</a></p>
     <p><a href="exercises/chapter2/exercise4/images.zip">Zip with images for assignment 2.4</a><p>
     <p><a href="exercises/chapter3/exercise5/assignment3-5.zip">Zip with files for assignment 3.5</a><p>
     <p><a href="exercises/chapter5/startpackage.zip">Zip-fil med startpaket för kapitel 5</a><p>
+```
+
 ```html
 <p><a href="https://gist.github.com/k3larra/6fa7da6819533a6e76c0176e9004ece7">Eller som gist</a></p>
 <p><a href="exercises/chapter3/exercise5/assignment3-5.zip">Zip with files for assignment 3.5</a><p>
