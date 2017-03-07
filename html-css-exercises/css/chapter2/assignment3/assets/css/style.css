@@ -1,0 +1,38 @@
+body {
+  background-color: lightgray;
+  color: black;
+}
+section {
+  background-color: white;
+  color: inherit;
+}
+.gallery {
+  background-color: gray;
+  color: inherit;
+}
+.gallery article {
+  background-color: white;
+  width: 200px;
+  /*2.1.d*/
+  color: inherit;
+}
+.gallery img {
+  width: 200px;
+}
+section h1 img {
+  width: 64px;
+  height: 48px;
+}
+.gallery h1 {
+  color: white;
+  font-style: normal;
+}
+section h1 {
+  font-style: italic;
+}
+.gallery-fruit {
+  background-color: green;
+}
+.gallery-vegetables {
+  background-color: brown;
+}
