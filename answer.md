@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Blogging Like a Hacker
 ---
 # Block element 2
