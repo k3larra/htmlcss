@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
 name: Lars Holmberg
-title: INtroduction to HTML and CSS
+title: Introduction to HTML and CSS
 description: Assignments and Solutions
+baseurl: /htmlcss
