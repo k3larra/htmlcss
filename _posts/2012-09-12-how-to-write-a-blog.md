@@ -2,7 +2,7 @@
 layout: default
 title:  "Welcome to Jekyll2!"
 date:   2015-11-17 16:16:01 -0600
-categories: jekyll update
+categories: htmlcss jekyll update
 ---
 HOWTO `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
