@@ -1,5 +1,7 @@
 /*This is a CSS comment here // doesn't work for comments*/
+
 body {
   background-color: FloralWhite;
   color: DarkOrange;
+  font-family: 'Fira Mono';
 }
