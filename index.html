@@ -12,7 +12,7 @@ title: Blogging Like a LH
 			<p>{{ site.url }}</p>
 			<p>{{ site.baseurl }}</p>
 			<p>{{ post.url }}</p>
-      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | prepend:site.baseurl}}">{{ post.title }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
