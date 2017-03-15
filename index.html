@@ -10,8 +10,9 @@ title: Blogging Like a LH
   {% for post in site.posts %}
     <li>
 			<p>{{ site.url }}</p>
+			<p>{{ site.baseurl }}</p>
 			<p>{{ post.url }}</p>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}

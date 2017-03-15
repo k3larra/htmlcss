@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
-name: Lars Holmberg
-title: All this JavaScript2
+name: "Lars Holmberg"
+title: "All this JavaScript3"
 description: Assignments and Solutions
 repository: "k3larra/htmlcss"
 gems: ['jekyll-github-metadata']
+baseurl: "/htmlcss"
