@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 name: Lars Holmberg
-title: Introduction to HTML and CSS
+title: All this JavaScript
 description: Assignments and Solutions
 repository: "k3larra/htmlcss"
 gems: ['jekyll-github-metadata']
