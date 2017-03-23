@@ -2,16 +2,16 @@
 layout: default
 title: Blogging Like a LH
 ---
-<div class="blurb">
-	<h1>Hi here, I'm The Lars Holmberg!</h1>
-	<p>I'm best known as Klara</p>
-</div><!-- /.blurb -->
 <section>
-  {% assign sorted_posts = (site.posts | sort: 'title') %}
+  {% assign sorted_posts = (site.posts |  sort: 'permalink') %}
   {% for post in sorted_posts %}
-    <article>
-      <a href="{{ post.url | prepend:site.baseurl}}">{{ post.title }}</a>
-      {{ post.excerpt }}
+    <article id="{{ post.permalink }}">
+      <header class="article-header">
+      <h5>{{post.title}}</h5>
+      <h4>{{ post.subtitle }}</h4>
+    </header>
+    <hr>
+			{{ post.content }}
     </article>
   {% endfor %}
 </section>

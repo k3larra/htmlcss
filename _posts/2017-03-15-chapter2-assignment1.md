@@ -2,11 +2,9 @@
 layout: post
 title:  "Assignment 1"
 date:   2015-11-17 16:16:01 -0600
-permalink: /chapter1/assignment1/
-categories: "Chapter 1"
+permalink: /chapter2/assignment1/
+categories: "Chapter 2"
 ---
 NEW AGAIN this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 <!--more-->
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-<p data-height="265" data-theme-id="light" data-slug-hash="ZeozNW" data-default-tab="html,result" data-user="k3lara" data-embed-version="2" data-pen-title="ZeozNW" class="codepen">See the Pen <a href="https://codepen.io/k3lara/pen/ZeozNW/">ZeozNW</a> by Lars H (<a href="http://codepen.io/k3lara">@k3lara</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

@@ -2,8 +2,8 @@
 layout: post
 title:  "Assignment 2"
 date:   2015-11-18 16:16:01 -0600
-permalink: /chapter1/assignment2/
-categories: "Chapter 1"
+permalink: /chapter2/assignment2/
+categories: "Chapter 2"
 ---
 HOWTO `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web
 server and auto-
