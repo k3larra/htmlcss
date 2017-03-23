@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 name: "Lars Holmberg"
-title: "HTML och CSS"
+title: "HTML and CSS"
 description: "Assignments and Solutions"
 repository: "k3larra/htmlcss"
 gems: ['jekyll-github-metadata']
