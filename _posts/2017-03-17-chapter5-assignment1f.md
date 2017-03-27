@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Assignment 5.1.f"
+subtitle: "Inline element 2"
 permalink: /chapter5/assignment1f/
 categories: "Chapter5"
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Assignment 5.1.a"
+subtitle: "CSS för att få lite färg på sidan"
 permalink: /chapter5/assignment1a/
 categories: "Chapter5"
 ---

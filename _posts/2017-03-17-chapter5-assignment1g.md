@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Assignment 5.1.g"
-permalink: /chapter5/assignment1g/
 subtitle: "Inline element 3"
+permalink: /chapter5/assignment1g/
 categories: "Chapter5"
 ---
 Nedan kan du se a-taggar som omsluter tre img-taggar med kattbilder. a-taggarna gör att bilderna blir klickbara. I och med att attributet "target" har värdet "_blank" så kommer wikipediasidor med information om katter på olika språk att öppnas i en ny flik i webbläsaren.
