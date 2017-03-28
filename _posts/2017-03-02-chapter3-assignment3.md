@@ -5,5 +5,43 @@ subtitle: "Validering och indentering"
 permalink: /chapter3/assignment3/
 categories: "Chapter3"
 ---
-<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter2-assignment1c.PNG" alt="Atom skärmklipp som visar filstrukturen" style="width:  40rem;"/>
-<figcaption>Namngivning av filer, här har vi namngivit så att alla varugrupper kommer tillsammans eftersom de organiseras i bokstavsordning som standard. Därefter har vi angett egennamnet samt avslutat med th om det är en tumnagelstor bild. Det går att skala bilder direkt i webbläsaren men en stor bild tar längre tid att överföra över nätet så av den anledningen är det bra att ha tumnagelstora bilder. Mer om bilder finns i CSS-kapitet XX. Tänk på att undvika åäö och ÅÄÖ och mellanslag (space). Bra tumregel är skriv på engelska använd bara a-z och bindelsstreck samt aldrig mellanslag. </figcaption>
+Indentering med hjälp av plugin. Nedan syns fklen index.html före och efter det att paketet beautify har körts. Du hittar pluginen från menyn Packages>Atom Beautify>Beautify om du kör Atom. Finns inte det alternativet så behöver du installera det.
+```html
+<html lang="sv">
+  <head>
+<title>En liten affär</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+<h1>Varugrupper</h1>
+<h2><a href="articles-dairy-products.html">Mejeriprodukter</a></h2>
+      <h2><a href="articles-fruits.html">Frukt</a></h2>
+      <a href="articles-vegetables.html"><h2>Grönsaker</h2></a>
+  </body>
+</html>
+```
+<figcaption>Indentering görs enbart för att öka läsbarheten och har inget med funktionen att göra. Ovan syns filen index.html med mindre snygg indentering.</figcaption>
+```html
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>En liten affär</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Varugrupper</h1>
+    <h2>
+      <a href="articles-dairy-products.html">Mejeriprodukter</a>
+    </h2>
+    <h2>
+      <a href="articles-fruits.html">Frukt</a>
+    </h2>
+    <a href="articles-vegetables.html">
+      <h2>Grönsaker</h2>
+    </a>
+  </body>
+</html>
+```
+<figcaption>Ovan syns filen index.html med snyggare indentering. Visa delar av indentering är en smaksak men det är enklare att anpassa sig till en standard än att driva en egen linje. En del inställningr för indenteringsregler kan du göra i den plugin du använder.</figcaption>
+<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter3-assignment3.PNG" alt="W3C-validering" style="width:  42rem;"/>
+<figcaption>Tag alltid för vana att validera koden enligt W3C. I ovanstående exempel använder vi paketet W3C-validation i Atom. I det exemplet är sluttaggen på title-elementet felaktig vilket skapar de felmeddelanden du ser under. Ibland är meddelandena lite kryptiska, i detta fall är det nedersta felet klart uttryckt medan det översta är ett följdfel (I och med att title-taggen inte är avslutad så kan hela texten uppfattas som en del av title-taggen).</figcaption>

@@ -5,38 +5,7 @@ subtitle: "CSS för att få lite färg på sidan"
 permalink: /chapter5/assignment1a/
 categories: "Chapter5"
 ---
-# Block element 2
-Detta kan variera lite men för Chrome är 1em(16px) marginal före och efter ett p-element. Det är 0.67em(21.44px) marginal före och efter ett `<h1>` element. Då kollapsar p-marginalen efersom den är mindre och det blir 21.44px ner till h1-taggen sen 21.44 till p-taggen och sen 16px till första section-taggen.
-Den brandgula färgen är header taggens bakgrundsfärg.
-
-```html
-<header>
-  <h1>En liten fin sida</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. In mi nibh, egestas non sodales ac, ultrices non nisi.
-    Duis non urna diam. Suspendisse eget facilisis quam. Nulla lobortis
-    dictum scelerisque. Duis vel nisi odio. Nullam laoreet leo vel
-    pharetra posuere. Maecenas eu hendrerit neque, nec porta erat.
-    Nam at urna dui. Curabitur gravida lectus lacus,
-    id feugiat dolor dapibus eget. Donec ac nulla tempus, varius massa sit
-    amet, mollis massa.</p>
-</header>
-<section>
-  <p>Sektion 1</p>
-  <p>Sektion 1 del 2</p>
-</section>
-<section>
-  <p>testar lite</p>
-  <p>testar lite mer </p>
-  <p>testar lite mer </p>
-  <p>testar lite mer </p>
-  <p>testar lite mer </p>
-</section>
-
-```
-
-And som eordinary text
-
+Raden `<link rel="stylesheet" href="css/style.css"/>` gör att din sida hittar en CSS-fil som ligger i mappen css och heter style.css. Filen style.css ser ut som nedan och CSS-regler har en syntax som ser annorlunda ut än HTML. I denna CSS anger vi bakgrundsfärger till de olika HTML-elementen..
 ```css
 body {
   background-color: lightgray;
@@ -74,4 +43,4 @@ h1 {
   background-color: floralwhite;
 }
 ```
-<!--more-->
+<figcaption>I CSS kopplar du utsenede till en tagg du använder då "kryllparateser" för att ange när en regel börjar och slutar. I exemplet ovan har vi angett en bakgrundsfärg för några element.</figcaption>

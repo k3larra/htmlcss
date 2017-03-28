@@ -5,5 +5,34 @@ subtitle: "Länkar till andra sidor på samma webbplats"
 permalink: /chapter3/assignment1d/
 categories: "Chapter3"
 ---
-<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter2-assignment1c.PNG" alt="Atom skärmklipp som visar filstrukturen" style="width:  40rem;"/>
-<figcaption>Namngivning av filer, här har vi namngivit så att alla varugrupper kommer tillsammans eftersom de organiseras i bokstavsordning som standard. Därefter har vi angett egennamnet samt avslutat med th om det är en tumnagelstor bild. Det går att skala bilder direkt i webbläsaren men en stor bild tar längre tid att överföra över nätet så av den anledningen är det bra att ha tumnagelstora bilder. Mer om bilder finns i CSS-kapitet XX. Tänk på att undvika åäö och ÅÄÖ och mellanslag (space). Bra tumregel är skriv på engelska använd bara a-z och bindelsstreck samt aldrig mellanslag. </figcaption>
+Nedan visas den delen av koden som skapar länkarna mellan sidorna.
+```html
+<h3>Interna länkar</h3>
+<p>
+  <a href="a.html">A</a>
+</p>
+<p>
+  <a href="b.html">B</a>
+</p>
+```
+<figcaption>Sidan index.html har denna koddel för navigationen. Lägg märke till att a-tsggarna är omslutna av p-taggar så att de hamnar på olika rader. Lägg även märke till indenteringen dvs att a-taggarna är inskjutna lite för att visa att de ligger inuti p-tagggen.</figcaption>
+```html
+<h3>Interna länkar</h3>
+<p>
+  <a href="index.html">Startsida</a>
+</p>
+<p>
+  <a href="a.html">A</a>
+</p>
+```
+<figcaption>Sidan b.html har denna koddel för navigationen, länkarna leder till de andra sidorna a.html samt index.html</figcaption>
+```html
+<h3>Interna länkar</h3>
+<p>
+  <a href="index.html">Startsida</a>
+</p>
+<p>
+  <a href="b.html">B</a>
+</p>
+```
+<figcaption>Sidan c.html har denna koddel för navigationen, länkarna leder till de andra sidorna b.html samt index.html</figcaption>
