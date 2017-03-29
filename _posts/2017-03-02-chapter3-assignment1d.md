@@ -2,7 +2,7 @@
 layout: post
 title:  "Uppgift 3.1.d"
 subtitle: "Länkar till andra sidor på samma webbplats"
-permalink: /chapter3/assignment1d/
+permalink: /chapter103/assignment1d/
 categories: "Kapitel3"
 ---
 Nedan visas den delen av koden som skapar länkarna mellan sidorna.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Uppgift 3.2"
 subtitle: "Frukt och grönt"
-permalink: /chapter3/assignment2/
+permalink: /chapter103/assignment2/
 categories: "Kapitel3"
 ---
 De fyra sidorna sammanlänkade så att det går att navigera mellan dem.
@@ -34,12 +34,12 @@ De fyra sidorna sammanlänkade så att det går att navigera mellan dem.
       <h1>Artiklar om grönsaker</h1>
       <article>
         <h2>Morötter</h2 >
-          <p><img src="assets/images/vegetables-carrot-etc.jpg" alt="Morot"></p>
+          <p><img src="images/vegetables-carrot-etc.jpg" alt="Morot"></p>
           <p>Lite beska men ändå goda</p>
       </article>
       <article>
         <h2>Potatis</h2 >
-        <p><img src="assets/images/vegetables-potato.jpg" alt="Potatis"></p>
+        <p><img src="images/vegetables-potato.jpg" alt="Potatis"></p>
         <p>Jordig och mjölig</p>
       </article>
     </section>
@@ -60,12 +60,12 @@ De fyra sidorna sammanlänkade så att det går att navigera mellan dem.
       <h1>Frukt</h1>
       <article>
         <h2>Citron</h2>
-        <p><img src="assets/images/fruit-lemon.jpg" alt="Citron"></p>
+        <p><img src="images/fruit-lemon.jpg" alt="Citron"></p>
         <p>Sur o fin</p>
       </article>
       <article>
         <h2>Apelsin</h2>
-        <p><img src="assets/images/fruit-orange.jpg" alt="Apelsin"></p>
+        <p><img src="images/fruit-orange.jpg" alt="Apelsin"></p>
         <p>Söta apelsiner med skal och kärnor</p>
       </article>
     </section>
@@ -86,12 +86,12 @@ De fyra sidorna sammanlänkade så att det går att navigera mellan dem.
       <h1>Mejeriprodukter</h1>
       <article>
         <h2>Ost</h2>
-        <p><img src="assets/images/dairy-cheese-etc.jpg" alt="Ost med mera"></p>
+        <p><img src="images/dairy-cheese-etc.jpg" alt="Ost med mera"></p>
         <p>Ostbricka</p>
       </article>
       <article>
         <h2>Mjölk</h2>
-        <p><img src="assets/images/dairy-milk.jpg" alt="Mjölk"></p>
+        <p><img src="images/dairy-milk.jpg" alt="Mjölk"></p>
         <p>Härlig mjölk att lapa.</p>
       </article>
     </section>

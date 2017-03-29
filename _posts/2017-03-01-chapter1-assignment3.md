@@ -2,7 +2,7 @@
 layout: post
 title:  "Uppgift 1.3"
 subtitle: "Indentering - Gruppering"
-permalink: /chapter1/assignment3/
+permalink: /chapter101/assignment3/
 categories: "Kapitel1"
 ---
 Att på detta sätt gruppera koden kan tyckas lite petigt men när du får lite mer kod är det ett oumbärligt sätt att hitta fel. Det gör att du med en snabb blick kan se vilka delar som hör ihop. Till skillnad från W3C-kompatibilitet så har indentering ingen betydelse för funktionaliteten. Vi kommer i nästa kapitel att använda ett tilläggsprogram till en html-redigerare som hjälper dig att indentera.

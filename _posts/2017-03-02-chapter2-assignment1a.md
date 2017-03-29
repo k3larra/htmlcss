@@ -2,14 +2,14 @@
 layout: post
 title:  "Uppgift 2.1.a"
 subtitle: "Filstruktur"
-permalink: /chapter2/assignment1a/
+permalink: /chapter102/assignment1a/
 categories: "Kapitel2"
 ---
 I uppgifterna arbetar vi med nedastående filstruktur, det går såklart att organisera filerna på andra sätt men för att komma igång så följer vi ett ganska strikt arbetssätt.
 
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter2-assignment1a.PNG" alt="Atom skärmklipp som visar filstrukturen" style="width: 20rem;"/>
 
-Att vi döper filen till index.html är en standard. Med denna standard slipper du skriva www.twitch.tv/index.html när du besöker sidan www.twitch.tv  eftersom webbläsaren letar efter en sådan fil om du inte har skrivit ett filnamn. Det finns ett antal andra standardnamn till exempel default.html, default.htm default.php samt andra alternativ som var och en säger lite om vilken typ av webbserver som du besöker samt vilken teknik den använder. Detta är inget som du behöver hålla reda på men kan vara bra att veta. Bara döp den som skall vara standard till index.html så fungerar det.
+Att vi döper filen till index.html är en standard. Med denna standard slipper du skriva www.twitch.tv/index.html när du besöker sidan www.twitch.tv  eftersom webbläsaren letar efter en fil det namnet om du inte har skrivit ett filnamn. Det finns ett antal andra standardnamn till exempel default.html, default.htm default.php samt andra alternativ som var och en säger lite om vilken typ av webbserver som du besöker samt vilken teknik den använder. Detta är inget som du behöver hålla reda på men kan vara bra att veta. Döp den som skall vara standard till index.html så fungerar det.
 
 {% highlight html linenos%}
 <!DOCTYPE html>

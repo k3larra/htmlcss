@@ -15,7 +15,7 @@
                 {% endif %}
                 {% assign last_category = post.categories %}
                   <li>
-                    <a href="#{{ post.permalink }}" class="nav-category">{{ post.categories }}</a>
+                    <a href="#{{ post.permalink }}" class="nav-category">Kapitel {{ post.categories[0] | remove: "Kapitel" }}</a>
                   </li>
                   <ul>
                     <li>

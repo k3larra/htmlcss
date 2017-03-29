@@ -2,10 +2,10 @@
 layout: post
 title:  "Uppgift 3.1.b"
 subtitle: "Hyperlänkar"
-permalink: /chapter3/assignment1b/
+permalink: /chapter103/assignment1b/
 categories: "Kapitel3"
 ---
-Hyperlänkar eller anchor-taggar kan leda dels till den egna sidan eller till en annan sida. I nedanstående exempel leder de till en ny sida som öppnas i en ny tab i webbläsaren. Att det är ett nytt fönster anges av attributet `target="_blank"` du kan även ange `_self` så öppnas länken i samma fönster.
+Hyperlänkar eller anchor-taggar kan öppna den nya sidan i aktuell flik eller i en ny flik. I nedanstående exempel öppnas de i en ny flik i webbläsaren. Att det är en ny flik anges av attributet `target="_blank"` du kan även ange `_self` så öppnas länken i aktuell flik.
 {% highlight html linenos%}
 <!DOCTYPE html>
 <html>
@@ -21,6 +21,6 @@ Hyperlänkar eller anchor-taggar kan leda dels till den egna sidan eller till en
   </body>
 </html>
 {% endhighlight%}
-<figcaption>Webbsida med en bild samt två länkar, dessa öppnas i en ny tab. </figcaption>
+<figcaption>Webbsida med en bild samt två länkar, dessa öppnas i en ny flik i webbläsaren. </figcaption>
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter3-assignment1b.PNG" alt="Chrome med inspect element" style="width:  42rem;"/>
 <figcaption>Här syns slutresultatet, utvecklarverktyget i Chrome visar koden bakom sidan. Eftersom både img-taggen och a-taggen är inline element, det vill säge de är tänkta att visas i löptext så syns de på samma rad.</figcaption>

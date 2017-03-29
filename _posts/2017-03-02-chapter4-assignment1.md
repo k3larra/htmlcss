@@ -2,7 +2,7 @@
 layout: post
 title:  "Uppgift 4.1"
 subtitle: "Mall"
-permalink: /chapter4/assignment1/
+permalink: /chapter104/assignment1/
 categories: "Kapitel4"
 ---
 {% highlight html linenos%}
@@ -20,4 +20,4 @@ categories: "Kapitel4"
   </body>
 </html>
 {% endhighlight %}
-<figcaption>Template att ha och utgå från så att du slipper komma ihåg alla detaljer. Det är såklart bra att veta vad alla delar i sidan gör.</figcaption>
+<figcaption>Mall att utgå från så att du slipper komma ihåg alla detaljer. Det är såklart bra att veta vad alla delar i sidan gör.</figcaption>
