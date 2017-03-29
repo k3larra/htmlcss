@@ -3,7 +3,7 @@ layout: post
 title:  "Uppgift 3.2"
 subtitle: "Frukt och grönt"
 permalink: /chapter3/assignment2/
-categories: "Chapter3"
+categories: "Kapitel3"
 ---
 De fyra sidorna sammanlänkade så att det går att navigera mellan dem.
 {% highlight html linenos%}

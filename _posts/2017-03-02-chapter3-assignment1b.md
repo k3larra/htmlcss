@@ -3,7 +3,7 @@ layout: post
 title:  "Uppgift 3.1.b"
 subtitle: "Hyperlänkar"
 permalink: /chapter3/assignment1b/
-categories: "Chapter3"
+categories: "Kapitel3"
 ---
 Hyperlänkar eller anchor-taggar kan leda dels till den egna sidan eller till en annan sida. I nedanstående exempel leder de till en ny sida som öppnas i en ny tab i webbläsaren. Att det är ett nytt fönster anges av attributet `target="_blank"` du kan även ange `_self` så öppnas länken i samma fönster.
 {% highlight html linenos%}

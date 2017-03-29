@@ -3,7 +3,7 @@ layout: post
 title:  "Uppgift 3.3"
 subtitle: "Validering och indentering"
 permalink: /chapter3/assignment3/
-categories: "Chapter3"
+categories: "Kapitel3"
 ---
 Indentering med hjälp av plugin. Nedan syns fklen index.html före och efter det att paketet beautify har körts. Du hittar pluginen från menyn Packages>Atom Beautify>Beautify om du kör Atom. Finns inte det alternativet så behöver du installera det.
 ```html

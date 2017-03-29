@@ -3,7 +3,7 @@ layout: post
 title:  "Assignment 5.1.c"
 subtitle: "Block-element 2"
 permalink: /chapter5/assignment1c/
-categories: "Chapter5"
+categories: "Kapitel5"
 ---
 `<header>`, `<section>`och `<footer>` elementen fylls helt med p-element, det blir ett avstånd mellan elementen på grund av att <p>-taggen som standard har marginal före och efter.
 

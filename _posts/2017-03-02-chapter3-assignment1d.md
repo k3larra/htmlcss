@@ -3,7 +3,7 @@ layout: post
 title:  "Uppgift 3.1.d"
 subtitle: "Länkar till andra sidor på samma webbplats"
 permalink: /chapter3/assignment1d/
-categories: "Chapter3"
+categories: "Kapitel3"
 ---
 Nedan visas den delen av koden som skapar länkarna mellan sidorna.
 ```html

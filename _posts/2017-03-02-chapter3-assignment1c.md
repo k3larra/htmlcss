@@ -3,7 +3,7 @@ layout: post
 title:  "Uppgift 3.1.c"
 subtitle: "Snygga till med p-taggar och h-taggar"
 permalink: /chapter3/assignment1c/
-categories: "Chapter3"
+categories: "Kapitel3"
 ---
 Användning av block-element som omsluter inline elementen a och img.
 {% highlight html linenos%}

@@ -3,7 +3,7 @@ layout: post
 title:  "Uppgift 3.1.a"
 subtitle: "Lägga in bilder"
 permalink: /chapter3/assignment1a/
-categories: "Chapter3"
+categories: "Kapitel3"
 ---
 I denna uppgift visas en bild som ligger i samma katalog som index.html. Lägg märke till att img-taggen inte har någon sluttagg som `<p>text</p>` utan den har i stället attribut som anger vilken bild som skall visas. Detta betyder att du endast skriver `<img src="fruit-apple.jpg" alt="Green apple">`, en del utvecklare menar att du alltid skall ange en sluttagg och du kan då antingen skriva `<img src="fruit-apple.jpg" alt="Green apple"></img>` eller `<img src="fruit-apple.jpg" alt="Green apple"/>`.
 

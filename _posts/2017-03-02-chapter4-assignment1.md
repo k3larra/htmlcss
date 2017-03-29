@@ -3,7 +3,7 @@ layout: post
 title:  "Uppgift 4.1"
 subtitle: "Mall"
 permalink: /chapter4/assignment1/
-categories: "Chapter4"
+categories: "Kapitel4"
 ---
 {% highlight html linenos%}
 <!DOCTYPE html>
