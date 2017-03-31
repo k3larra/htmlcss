@@ -156,6 +156,12 @@ label::before {
 #main-head{
   background-color: #f1f1f1;
 }
+
+#nav-main .nav-category:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
 #nav-main {
   list-style-type: none;
   margin: 0;

@@ -8,6 +8,7 @@ function onDocumentReady() {
   console.log("lOADED!");
   document.getElementById('nav-main').addEventListener("click",navigation);
   document.getElementById("navAbout").addEventListener("click",showAbout);
+  showAbout();
 }
 
 function navigation(e){
