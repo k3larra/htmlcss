@@ -80,21 +80,21 @@
 
 .article-header {
     position: relative;
-    padding: 0.5rem 1.5rem;
+    padding: 0rem;
 }
 
 .article-header h5 {
     display: inline;
     position: absolute;
-    right: 1rem;
-    bottom: 0.2rem;
-    margin: 0 0 0.5rem 0.5rem;
+    right: 0;
+    bottom: 0;
+    margin: 0;
 }
 
 .article-header h4 {
     display: inline;
     position: relative;
-    margin: 0 0.5rem 0.5rem 0;
+    margin: 0 0.5rem 0rem 0;
 }
 
 .article-answer img {
@@ -157,7 +157,7 @@ label::before {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 2rem;
     font-size: 0.9rem;
     background-color: #f1f1f1;
 }
@@ -185,6 +185,46 @@ nav li a:hover {
 .active {
     background-color: lightgray;
 }
+
+.navigation-assignment .nav-category .element{
+  position: relative;
+  color: #000;
+}
+//Chevron
+.navigation-assignment .nav-category .element::before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    content: "\f054";
+    font-size:  0.9rem;
+    position: absolute;
+    top: 0;
+    left:-2rem;
+}
+
+.expanded{
+  
+}
+.navigation-assignment .nav-category.expanded .element::before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    content: "\f078";
+    font-size:  0.9rem;
+    position: absolute;
+    top: 0;
+    left: -2rem;
+}
+
+.book .book-summary .expanded > a .exc-trigger:before, .book .book-summary .expanded > span .exc-trigger:before {
+    content: "\f054";
+}
+
+/*end carret*/
+.highlight table td, .highlight table td pre{
+  border:none;
+}
+
 /*
 #expand {
   height: 0px;

@@ -5,29 +5,30 @@
     <section class="main-and-sidebar-wrapper main-content" >
       <nav class="navigation-assignment">
         <!--http://jekyll.tips/jekyll-casts/navigation/-->
-        <ul id="nav-main">
-          {% assign sorted_posts = (site.posts | sort: 'permalink') %}
-          {% assign last_category = 'chapter0' %}
-          {% for post in sorted_posts %}
-              {% if last_category != post.categories%}
-                {% if last_category != 'chapter0'%}
-                  </ul>
-                {% endif %}
-                {% assign last_category = post.categories %}
-                  <li>
-                    <a href="#{{ post.permalink }}" class="nav-category">Kapitel {{ post.categories[0] | remove: "Kapitel" }}</a>
-                  </li>
-                  <ul>
-                    <li>
-                      <a href="#{{ post.permalink }}" class="nav-element">{{ post.title }}</a>
-                    </li>
-              {% else %}
-                  <li>
-                    <a href="#{{ post.permalink }}" class="nav-element">{{ post.title }}</a>
-                  </li>
-              {% endif %}
-          {% endfor %}
-        </ul>
+            <ul id="nav-main">
+              {% assign sorted_posts = (site.posts | sort: 'permalink') %}
+              {% assign last_category = 'chapter0' %}
+              {% for post in sorted_posts %}
+                  {% if last_category != post.categories%}
+                    {% if last_category != 'chapter0'%}
+                      </ul>
+                    {% endif %}
+                    {% assign last_category = post.categories %}
+                      <li>
+                        <a href="#{{ post.permalink }}" class="nav-category"><i class="element" aria-hidden="true"></i>Kapitel {{ post.categories[0] | remove: "Kapitel" }}</a>
+                      </li>
+                      <ul>
+                        <li>
+                          <a href="#{{ post.permalink }}" class="nav-element">{{ post.title }}</a>
+                        </li>
+                  {% else %}
+                      <li>
+                        <a href="#{{ post.permalink }}" class="nav-element">{{ post.title }}</a>
+                      </li>
+                  {% endif %}
+              {% endfor %}
+            </ul>
+        </li>
       </nav>
       <article class="article-answer">
           {{ content }}
