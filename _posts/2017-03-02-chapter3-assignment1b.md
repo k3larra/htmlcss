@@ -4,6 +4,7 @@ title:  "Uppgift 3.1.b"
 subtitle: "Hyperlänkar"
 permalink: /chapter103/assignment1b/
 categories: "Kapitel3"
+tags: "answer"
 ---
 Hyperlänkar eller anchor-taggar kan öppna den nya sidan i aktuell flik eller i en ny flik. I nedanstående exempel öppnas de i en ny flik i webbläsaren. Att det är en ny flik anges av attributet `target="_blank"` du kan även ange `_self` så öppnas länken i aktuell flik.
 {% highlight html linenos%}

@@ -4,6 +4,7 @@ title:  "Uppgift 3.1.c"
 subtitle: "Snygga till med p-taggar och h-taggar"
 permalink: /chapter103/assignment1c/
 categories: "Kapitel3"
+tags: "answer"
 ---
 Användning av block-element som omsluter inline elementen a och img.
 {% highlight html linenos%}

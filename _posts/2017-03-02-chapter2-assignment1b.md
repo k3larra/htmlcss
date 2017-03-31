@@ -4,6 +4,7 @@ title:  "Uppgift 2.1.b"
 subtitle: "Skapa sidor"
 permalink: /chapter102/assignment1b/
 categories: "Kapitel2"
+tags: "answer"
 ---
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter2-assignment1b.PNG" alt="Atom skärmklipp som visar filstrukturen" style="width:  20rem;"/>
 <figcaption>Så här ser resultatet ut i Atom när du skapat sidorna för denna uppgift.</figcaption>

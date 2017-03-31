@@ -6,7 +6,15 @@
       <nav class="navigation-assignment">
         <!--http://jekyll.tips/jekyll-casts/navigation/-->
             <ul id="nav-main">
-              {% assign sorted_posts = (site.posts | sort: 'permalink') %}
+              <li>
+              <ul id="nav-intro">
+                <li id="main-head">Introduktion till HTML och CSS</li>
+                <ul>
+                  <li class="nav-category" id="navAbout">Om</li>
+                </ul>
+              </ul>
+              </li>
+              {% assign sorted_posts = (site.tags.answer | sort: 'permalink') %}
               {% assign last_category = 'chapter0' %}
               {% for post in sorted_posts %}
                   {% if last_category != post.categories%}
@@ -28,7 +36,7 @@
                   {% endif %}
               {% endfor %}
             </ul>
-        </li>
+          </ul>
       </nav>
       <article class="article-answer">
           {{ content }}

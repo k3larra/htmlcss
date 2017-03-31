@@ -29,7 +29,7 @@
     bottom: 0;
     z-index: 1;
     overflow-y: auto;
-    width: 200px;
+    width: 260px;
     border-right: 1px solid rgba(0,0,0,.07);
 }
 
@@ -55,7 +55,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    left: 200px;
+    left: 260px;
     bottom: 0;
     overflow-y: auto;
 }
@@ -153,30 +153,53 @@ label::before {
     margin-right: 3px;
     background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
 }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0 0 0 2rem;
-    font-size: 0.9rem;
-    background-color: #f1f1f1;
+#main-head{
+  background-color: #f1f1f1;
+}
+#nav-main {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 2rem;
+  font-size: 0.9rem;
+  background-color: #f1f1f1;
 }
 
-nav li a {
+#intro{
+  display:none;
+}
+
+#assignments{
+  display:block;
+}
+
+#nav-main li a,#nav-intro li  {
     display: block;
-    color: #000;
-    padding: 0.5rem 1rem;
+    color: #606c71;
+    padding: 0.5rem 0 0.5rem 0rem;
     text-decoration: none;
 }
 
-nav ul ul {
+#nav-main>ul {
     display: none;
     list-style-type: none;
     font-size: 0.8rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
+    padding-left: 0.5rem;
 }
-
-nav li a:hover {
+ul#nav-intro{
+  position: relative;
+  list-style-type: none;
+  left:-1rem;
+  display: block;
+  margin-left: 0rem;
+  padding-left: 0rem;
+}
+ul#nav-intro ul{
+  margin-left: 1rem;
+  padding-left: 0rem;
+  list-style-type: none;
+}
+#nav-main li a:hover {
     background-color: #555;
     color: white;
     text-decoration: none;
@@ -188,7 +211,7 @@ nav li a:hover {
 
 .navigation-assignment .nav-category .element{
   position: relative;
-  color: #000;
+  color: #606c71;
 }
 //Chevron
 .navigation-assignment .nav-category .element::before {
@@ -199,11 +222,11 @@ nav li a:hover {
     font-size:  0.9rem;
     position: absolute;
     top: 0;
-    left:-2rem;
+    left:-1rem;
 }
 
 .expanded{
-  
+
 }
 .navigation-assignment .nav-category.expanded .element::before {
     font-family: FontAwesome;
@@ -213,12 +236,9 @@ nav li a:hover {
     font-size:  0.9rem;
     position: absolute;
     top: 0;
-    left: -2rem;
+    left: -1rem;
 }
 
-.book .book-summary .expanded > a .exc-trigger:before, .book .book-summary .expanded > span .exc-trigger:before {
-    content: "\f054";
-}
 
 /*end carret*/
 .highlight table td, .highlight table td pre{

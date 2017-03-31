@@ -4,6 +4,7 @@ title:  "Uppgift 3.2"
 subtitle: "Frukt och grönt"
 permalink: /chapter103/assignment2/
 categories: "Kapitel3"
+tags: "answer"
 ---
 De fyra sidorna sammanlänkade så att det går att navigera mellan dem.
 {% highlight html linenos%}

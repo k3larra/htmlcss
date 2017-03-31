@@ -4,6 +4,7 @@ title:  "Uppgift 4.1"
 subtitle: "Mall"
 permalink: /chapter104/assignment1/
 categories: "Kapitel4"
+tags: "answer"
 ---
 {% highlight html linenos%}
 <!DOCTYPE html>

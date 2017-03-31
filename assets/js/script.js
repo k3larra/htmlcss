@@ -6,11 +6,16 @@ if (document.readyState != 'loading'){
 
 function onDocumentReady() {
   console.log("lOADED!");
-  var nav = document.getElementById('nav-main').addEventListener("click",navigation);
+  document.getElementById('nav-main').addEventListener("click",navigation);
+  document.getElementById("navAbout").addEventListener("click",showAbout);
 }
 
 function navigation(e){
   //There can only be one active remove all active
+  console.log(e.target.id);
+  if(e.target.id!=="navAbout"){
+    showAssignments();
+  }
   var navElements = document.getElementsByClassName('nav-element');
   for (var i = 0; i < navElements.length; ++i) {
     var item = navElements[i];
@@ -34,4 +39,14 @@ function navigation(e){
       e.target.classList.remove("expanded");
     }
   }
+}
+
+function showAbout(){
+  document.getElementById("intro").style.display = "block";
+  document.getElementById("assignments").style.display = "none";
+}
+
+function showAssignments(){
+  document.getElementById("intro").style.display = "none";
+  document.getElementById("assignments").style.display = "block";
 }

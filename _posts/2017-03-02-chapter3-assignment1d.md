@@ -4,6 +4,7 @@ title:  "Uppgift 3.1.d"
 subtitle: "Länkar till andra sidor på samma webbplats"
 permalink: /chapter103/assignment1d/
 categories: "Kapitel3"
+tags: "answer"
 ---
 Nedan visas den delen av koden som skapar länkarna mellan sidorna.
 ```html

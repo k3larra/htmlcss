@@ -4,6 +4,7 @@ title:  "Assignment 5.1.g"
 subtitle: "Inline element 3"
 permalink: /chapter105/assignment1g/
 categories: "Kapitel5"
+tags: "answer"
 ---
 Nedan kan du se a-taggar som omsluter tre img-taggar med kattbilder två av dem ligger lokalt den tredje hämtas från nätet. a-taggarna gör att bilderna blir klickbara. I och med att attributet “target” har värdet “_blank” så kommer wikipediasidor med information om katter på olika språk att öppnas i en ny flik i webbläsaren.
 ```html

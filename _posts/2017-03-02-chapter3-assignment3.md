@@ -4,6 +4,7 @@ title:  "Uppgift 3.3"
 subtitle: "Validering och indentering"
 permalink: /chapter103/assignment3/
 categories: "Kapitel3"
+tags: "answer"
 ---
 Indentering med hjälp av plugin. Nedan syns filen index.html före och efter det att Atom-paketet "beautify" har körts. Du hittar pluginen från menyn Packages>Atom Beautify>Beautify om du kör Atom. Finns inte det alternativet i menyn så behöver du installera det.
 ```html

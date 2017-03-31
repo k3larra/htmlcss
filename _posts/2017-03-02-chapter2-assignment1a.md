@@ -4,6 +4,7 @@ title:  "Uppgift 2.1.a"
 subtitle: "Filstruktur"
 permalink: /chapter102/assignment1a/
 categories: "Kapitel2"
+tags: "answer"
 ---
 I uppgifterna arbetar vi med nedastående filstruktur, det går såklart att organisera filerna på andra sätt men för att komma igång så följer vi ett ganska strikt arbetssätt.
 
