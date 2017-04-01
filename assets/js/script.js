@@ -18,7 +18,8 @@ function navigation(e){
   if(e.target.id!=="navAbout"&&e.target.id!=="navStart"){
     showAssignments();
   }
-  if(e.target.id=="main-head"){
+  if((e.target.id=="main-head")||(e.target.parentElement.id=="main-head")){
+    console.log(e.target);
     showStart(false);
   }
   if(e.target.id=="navAbout"){
@@ -37,19 +38,22 @@ function navigation(e){
     var item = navCategories[i];
     item.classList.remove("active");
   }
-  e.target.classList.add("active");
-  var element = e.target.parentNode;
-  //IF next element is UL then it is a nav-category we clicked so lets expand
-  if(element.nextElementSibling!==null&&element.nextElementSibling.nodeName=="UL"){  //Check if it is sub
-      console.log("JEpp");
-    if (element.nextElementSibling.style.display===""||element.nextElementSibling.style.display==="none"){
-      element.nextElementSibling.style.display="block";
-      e.target.classList.add("expanded");
-    }else{
-      element.nextElementSibling.style.display="none";
-      e.target.classList.remove("expanded");
+
+  if (e.target.classList.contains("nav-category")||e.target.classList.contains("nav-element")){
+      e.target.classList.add("active");
+      var element = e.target.parentNode;
+      //IF next element is UL then it is a nav-category we clicked so lets expand
+      if(element.nextElementSibling!==null&&element.nextElementSibling.nodeName=="UL"){  //Check if it is sub
+          console.log("JEpp");
+        if (element.nextElementSibling.style.display===""||element.nextElementSibling.style.display==="none"){
+          element.nextElementSibling.style.display="block";
+          e.target.classList.add("expanded");
+        }else{
+          element.nextElementSibling.style.display="none";
+          e.target.classList.remove("expanded");
+        }
+      }
     }
-  }
 }
 
 function hideStart(){
