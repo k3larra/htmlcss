@@ -44,5 +44,5 @@ Indentering med hjälp av plugin. Nedan syns filen index.html före och efter de
 </html>
 ```
 <figcaption>Ovan syns filen index.html med snyggare indentering. Visa delar av indentering är en smaksak men det är enklare att anpassa sig till en standard än att driva en egen linje. En del inställningr för indenteringsregler kan du göra i den plugin du använder.</figcaption>
-<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter3-assignment3.PNG" alt="W3C-validering" style="width:  42rem;"/>
+<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter3-assignment3.PNG" alt="W3C-validering" />
 <figcaption>Tag alltid för vana att validera koden enligt W3C. I ovanstående exempel använder vi paketet W3C-validation i Atom. I exemplet ovan är sluttaggen på title-elementet felaktig vilket skapar de felmeddelanden du ser under koden i rött. Ibland är meddelandena lite kryptiska, i detta fall är det nedersta felet klart uttryckt medan det översta är ett följdfel (I och med att title-taggen inte är avslutad så kan hela texten uppfattas som en del av title-taggen).</figcaption>

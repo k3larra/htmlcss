@@ -22,5 +22,5 @@ I denna uppgift visas en bild som ligger i samma katalog som index.html. Lägg m
 </html>
 ```
 <figcaption>En sida som inkluderar en bild, i detta fallet visas den i sin "naturliga storlek" så är den 500px*500px så visas den i den storleken. I och med att det bara står filnamnet i argumentet  src="filnamn" så förväntas bilden ligga i samma mapp som den html-fil som visar bilden.</figcaption>
-<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter3-assignment1a.PNG" alt="Chrome med inspect element" style="width:  42rem;"/>
+<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter3-assignment1a.PNG" alt="Chrome med inspect element"/>
 <figcaption>Här syns slutresultatet. Här är även utvecklarverktyget öppet så att koden som körs kan inspekteras. Sidan körs i atom med en lokal webbserver (live-server) detta kan du se dels genom att webbadressen är 127.0.0.1:3000 och att det finns kod som live-servern har lagt till på webbsidan. Utvecklarverktyget gör att du kan inspektera koden på sidan och se hur den är uppbyggd.  </figcaption>

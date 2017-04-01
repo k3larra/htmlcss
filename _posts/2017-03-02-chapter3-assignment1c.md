@@ -25,5 +25,5 @@ Användning av block-element som omsluter inline elementen a och img.
 </html>
 {% endhighlight%}
 <figcaption></figcaption>
-<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter3-assignment1c.PNG" alt="Chrome med inspect element" style="width:  42rem;"/>
+<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter3-assignment1c.PNG" alt="Chrome med inspect element" />
 <figcaption>Här syns slutresultatet, utvecklarverktyget i Chrome visar koden bakom sidan. I och med att a-taggarna är inom p-taggar visas de på olika rader. Paragraph (p-taggen) representerar ett textstycke och är ett block-element som visas på egen rad med avstånd före och efter.</figcaption>
