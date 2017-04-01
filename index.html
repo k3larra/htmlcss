@@ -2,7 +2,8 @@
 layout: default
 title: Lösningsförslag
 ---
-<section class="page-inner" id="intro">
+
+<section class="page-inner" id="sectionIntro">
   {% assign sorted_posts = (site.tags.intro | sort: 'permalink') %}
     {% for post in sorted_posts%}
     <article id="{{ post.permalink }}">

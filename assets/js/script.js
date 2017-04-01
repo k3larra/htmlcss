@@ -7,15 +7,25 @@ if (document.readyState != 'loading'){
 function onDocumentReady() {
   console.log("lOADED!");
   document.getElementById('nav-main').addEventListener("click",navigation);
-  document.getElementById("navAbout").addEventListener("click",showAbout);
-  showAbout();
+  document.getElementById("sectionStart").addEventListener("click",showAssignments);
+  document.getElementById("sectionEnd").addEventListener("click",showAssignments);
+  showStart(true);
 }
 
 function navigation(e){
   //There can only be one active remove all active
   console.log(e.target.id);
-  if(e.target.id!=="navAbout"){
+  if(e.target.id!=="navAbout"&&e.target.id!=="navStart"){
     showAssignments();
+  }
+  if(e.target.id=="main-head"){
+    showStart(false);
+  }
+  if(e.target.id=="navAbout"){
+    showAbout();
+  }
+  if(e.target.id=="main-end"){
+    showEnd();
   }
   var navElements = document.getElementsByClassName('nav-element');
   for (var i = 0; i < navElements.length; ++i) {
@@ -42,12 +52,38 @@ function navigation(e){
   }
 }
 
+function hideStart(){
+  document.getElementById("sectionStart").style.display = "none";
+  document.getElementById("sectionEnd").style.display = "none";
+  document.getElementById("mainContent").style.display = "block";
+}
+function showEnd(){
+  document.getElementById("sectionEnd").style.display = "block";
+  document.getElementById("mainContent").style.display = "none";
+  document.getElementById("sectionStart").style.display = "none";
+}
+function showStart(pageReloaded){
+  if(pageReloaded&&(document.URL.indexOf("#")!==-1)){ //Page reloaded
+    document.getElementById("sectionStart").style.display = "none";
+    document.getElementById("mainContent").style.display = "block";
+    document.getElementById("sectionEnd").style.display = "none";
+  }else{   //clicked the menu item
+    document.getElementById("sectionStart").style.display = "block";
+    document.getElementById("mainContent").style.display = "none";
+    document.getElementById("sectionEnd").style.display = "none";
+  }
+}
+
 function showAbout(){
-  document.getElementById("intro").style.display = "block";
+  document.getElementById("sectionStart").style.display = "none";
+  document.getElementById("sectionIntro").style.display = "block";
   document.getElementById("assignments").style.display = "none";
+  document.getElementById("sectionEnd").style.display = "none";
 }
 
 function showAssignments(){
-  document.getElementById("intro").style.display = "none";
+  hideStart();
+  document.getElementById("sectionStart").style.display = "none";
+  document.getElementById("sectionIntro").style.display = "none";
   document.getElementById("assignments").style.display = "block";
 }

@@ -2,15 +2,18 @@
 <html lang="en-us">
 {% include head.html %}
   <body>
-    <section class="main-and-sidebar-wrapper main-content" >
+    <section class="page-start" id="sectionStart">
+      <img src="{{ site.url | append:site.baseurl}}/assets/images/front.PNG" alt="Book frontpage"/>
+    </section>
+    <section class="main-and-sidebar-wrapper main-content" id="mainContent">
       <nav class="navigation-assignment">
         <!--http://jekyll.tips/jekyll-casts/navigation/-->
             <ul id="nav-main">
               <li>
               <ul id="nav-intro">
-                <li id="main-head">Introduktion till HTML och CSS</li>
+                <li id="main-head">Introduktion till <strong>HTML</strong> och <strong>CSS</strong></li>
                 <ul>
-                  <li class="nav-category" id="navAbout">Om</li>
+                  <li class="nav-category" id="navAbout">Komma igång</li>
                 </ul>
               </ul>
               </li>
@@ -36,11 +39,18 @@
                   {% endif %}
               {% endfor %}
             </ul>
+            <li>
+            <ul id="navEnd">
+              <li id="main-end">Om</li>
+            </ul>
           </ul>
       </nav>
       <article class="article-answer">
           {{ content }}
       </article>
+    </section>
+    <section class="page-start" id="sectionEnd">
+      <img src="{{ site.url | append:site.baseurl}}/assets/images/back.PNG" alt="Book frontpage"/>
     </section>
     {% include ganalytics.html %}
     <script src='{{"/assets/js/script.js"| prepend:site.baseurl }}'></script>
