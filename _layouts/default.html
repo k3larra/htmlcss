@@ -2,9 +2,6 @@
 <html lang="en-us">
 {% include head.html %}
   <body>
-    <section class="page-start" id="sectionStart">
-      <img src="{{ site.url | append:site.baseurl}}/assets/images/front.PNG" alt="Book frontpage"/>
-    </section>
     <section class="main-and-sidebar-wrapper main-content" id="mainContent">
       <aside class="aside-bookspine" id="bookSpine">
           <img src="{{ site.url | append:site.baseurl}}/assets/images/spine.PNG" alt="Book frontpage"/>
@@ -42,18 +39,11 @@
                   {% endif %}
               {% endfor %}
             </ul>
-            <li>
-            <ul id="navEnd">
-              <li id="main-end">Om</li>
-            </ul>
           </ul>
       </nav>
       <article class="article-answer">
           {{ content }}
       </article>
-    </section>
-    <section class="page-start" id="sectionEnd">
-      <img src="{{ site.url | append:site.baseurl}}/assets/images/back.PNG" alt="Book frontpage"/>
     </section>
     {% include ganalytics.html %}
     <script src='{{"/assets/js/script.js"| prepend:site.baseurl }}'></script>
