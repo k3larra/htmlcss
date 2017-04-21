@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment 6.1.c"
+title:  "Uppgift 6.1.c"
 subtitle: "Footer med copyright information"
 permalink: /chapter106/assignment1c/
 categories: "Kapitel6"

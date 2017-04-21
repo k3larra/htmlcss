@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment 7.1.a"
+title:  "Uppgift 7.1.a"
 subtitle: "Länka ihop sidor"
 permalink: /chapter107/assignment1a/
 categories: "Kapitel7"

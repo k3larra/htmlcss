@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment 6.1.a"
+title:  "Uppgift 6.1.a"
 subtitle: "Rubriker"
 permalink: /chapter106/assignment1a/
 categories: "Kapitel6"

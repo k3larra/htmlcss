@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment 6.1.b"
+title:  "Uppgift 6.1.b"
 subtitle: "Semantisk uppmärkning"
 permalink: /chapter106/assignment1b/
 categories: "Kapitel6"

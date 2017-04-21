@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment 5.1.c"
+title:  "Uppgift 5.1.c"
 subtitle: "Block-element 2"
 permalink: /chapter105/assignment1c/
 categories: "Kapitel5"
