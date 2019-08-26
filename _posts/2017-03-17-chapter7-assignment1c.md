@@ -10,4 +10,4 @@ Här länkar vi till en extern sida och använder därför target"_blank". Vi an
 ```html
 <p><strong><a href="http://www.lu.se" target="_blank">Min skola</a></strong></p>
 ```
-<figcaption>Absolut länkning, länken ligger inom en p-tagg samt att vi angett taggen <strong> förrr att länken skall skilja sig utseendemässigt från de andra länkarna.</figcaption>
+<figcaption>Absolut länkning, länken ligger inom en p-tagg samt att vi angett taggen <strong> för att länken skall skilja sig utseendemässigt från de andra länkarna.</figcaption>
