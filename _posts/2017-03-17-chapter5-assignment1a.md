@@ -44,4 +44,4 @@ h1 {
   background-color: floralwhite;
 }
 ```
-<figcaption>I CSS kopplar du utsenede till en tagg du använder då "kryllparateser" för att ange när en regel börjar och slutar. I exemplet ovan har vi angett en bakgrundsfärg för några element.</figcaption>
+<figcaption>I CSS kopplar du utseende till en tagg du använder då "kryllparateser" för att ange när en regel börjar och slutar. I exemplet ovan har vi angett en bakgrundsfärg för några element.</figcaption>
