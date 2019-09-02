@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Uppgift 2.1.c"
-subtitle: "Namnge sidor"
+subtitle: "Namnge filer"
 permalink: /chapter102/assignment1c/
 categories: "Kapitel2"
 tags: "answer"
