@@ -2,7 +2,7 @@
 layout: post
 title:  "Övning 7.2.b"
 subtitle: "Bildlänkar"
-permalink: /chapter107/assignment2/
+permalink: /chapter107/assignment2b/
 categories: "Kapitel7"
 tags: "answer"
 ---

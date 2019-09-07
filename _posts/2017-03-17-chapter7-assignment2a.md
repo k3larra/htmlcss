@@ -2,7 +2,7 @@
 layout: post
 title:  "Övning 7.2.a"
 subtitle: "Ankarlänkar"
-permalink: /chapter107/assignment2/
+permalink: /chapter107/assignment2a/
 categories: "Kapitel7"
 tags: "answer"
 ---
