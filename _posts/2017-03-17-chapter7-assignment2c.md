@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Övning 7.2.c"
-subtitle: "Bildlänkar"
+subtitle: "E-postlänkar"
 permalink: /chapter107/assignment2c/
 categories: "Kapitel7"
 tags: "answer"
@@ -61,12 +61,12 @@ Nedan finns ett förslag på hur koden för indexsidan kan se ut i sin helhet. U
       </article>
     </main>
     <footer>
-      <a href="mailto:montathar.faraon@gmail.com">Skicka mail</a>
+      <a href="mailto:a.b@gmail.com">Skicka mail</a>
     </footer>
   </body>
 </html>
 ```
-<figcaption>Den kompletta indexsidan så som vi skrivit den.</figcaption>
+<figcaption>Den kompletta indexsidan så som vi skrivit den med semantisk uppmärkning (Se kapitel 5).</figcaption>
 ```html
 <!DOCTYPE html>
 <html lang="sv">
@@ -88,9 +88,9 @@ Nedan finns ett förslag på hur koden för indexsidan kan se ut i sin helhet. U
     <h2><a href="../index.html#project1">Startsidan</a></h2>
   </main>
     <footer>
-      <a href =" mailto:montathar.faraon@gmail.com">Skicka mail</a>
+      <a href =" mailto:a.b@gmail.com">Skicka mail</a>
     </footer>
   </body>
 </html>
 ```
-<figcaption>En av tre projektsidor.</figcaption>
+<figcaption>En av tre projektsidor med semantisk uppmärkning (Se kapitel 5).</figcaption>
