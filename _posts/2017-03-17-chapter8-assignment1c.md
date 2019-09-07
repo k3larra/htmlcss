@@ -1,21 +1,15 @@
 ---
 layout: post
-title:  "Övning 8.1.b"
+title:  "Övning 8.1.c"
 subtitle: "E-postlänkar"
-permalink: /chapter108/assignment1a/
+permalink: /chapter108/assignment1c/
 categories: "Kapitel8"
 tags: "answer"
 ---
-All bilder kommer då att skalas till samma bredd men lite olika höjd om bredd/höjd förhållande varierar.
-Vad händer om du lägger alla img taggar ovanför varandra i ett `<article> element så här? Varför blir det så?
+Här tvingar vi alla bilder att ha samma bildförhållande. Det innebär att bilderna förvrängs vilket sällan är det man vill.
 
-```html
-<article>
-  <img src="images/forrest1.jpg" alt="Foto som visar en gles odlad skog i norrland" width="200">
-  <img src="images/forrest2.jpg" alt="Foto av solbelyst bokskog i skåne." width="200" height="400">
-  <img src="images/forrest3.png" alt="Illustration som visar ett träd." width="200" >
-  <img src="images/forrest4.gif" alt="Animation av en man som springer i skogen." width="200" >
-</article>
-```
+Tänk på att när du ändrar bredd och höjd så ändras inte den storlek bilden har när den är sparad den bara zoomas in eller ut. Därför måste man skala ner bilder till tummnagelstorlek om man vill visa många på en sida annars tar det mycket lång tid att ladda en sida.
 
-<figcaption>Vad händer om du lägger in bilderna så här och inte i vars ett `<article>` element.</figcaption>
+Det går ofta fort ändå att ladda en sida för den som bygger den eftersom bilderna lagras temporärt i webbläsaren. Sedan när man ber någon annan titta på sidan går det långsamt första gången sidan visas. Inte alls bra och du är i gott sällskap om du gör det misstaget.
+
+Ett tips är att googla på hur du tömmer cache-minnet för den webbläsare du använder då kan du rensa bort alla lagrade sidor och bilder och iakta hur en sida laddas första gången.
