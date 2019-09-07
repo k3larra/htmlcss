@@ -7,7 +7,7 @@ categories: "Kapitel2"
 tags: "answer"
 ---
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter2-assignment1b.PNG" alt="Atom skärmklipp som visar filstrukturen" style="width:  20rem;"/>
-<figcaption>Så här ser resultatet ut i Atom när du skapat sidorna för denna Övning.</figcaption>
+<figcaption>Så här ser resultatet ut i Atom när du skapat sidorna för denna övning.</figcaption>
 {% highlight html linenos%}
 <!DOCTYPE html>
 <html lang="sv">
