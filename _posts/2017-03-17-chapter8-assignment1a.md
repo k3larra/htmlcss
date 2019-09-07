@@ -36,4 +36,4 @@ Nedan finns ett förslag på hur koden för bildsidan kan se ut. Ett tips är at
   </body>
 </html>
 ```
-<figcaption>Sida med bilder/figurer placerade i semantiska element samt `<img> element med `beskrivande `alt=` attribut.</figcaption>
+<figcaption>Sida med bilder/figurer placerade i semantiska element samt img element med beskrivande alt= attribut.</figcaption>

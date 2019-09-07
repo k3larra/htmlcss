@@ -6,8 +6,8 @@ permalink: /chapter108/assignment1e/
 categories: "Kapitel8"
 tags: "answer"
 ---
-Du bör tänka som så att det som står i `alt` attributet syns när man rör musen eller fingret över en bild eller att det är det en person med synnedsättning för uppläst. Det vill säga de båda texterna skall komplettera varandra och det som står i `alt` attributet beskriva bilden.
-Enligt W3C så skall bilden och dess beskrivning vara en enhet vilket är rimligt så att bilder samt deras beskrivning håller ihop som en helhet. Nedan finns ett förslag på hur det kan se ut för en av dina bilder.
+Du bör tänka som så att det som står i `alt` attributet syns när man rör musen eller fingret över en bild eller att det för en person med synnedsättning skall förklara beskriva bilens innehåll. Det vill säga de båda texterna skall komplettera.
+Enligt W3C så är bilden och dess beskrivning en enhet så att bilder samt deras beskrivning håller ihop som en helhet. Nedan finns ett förslag på hur det kan se ut för en av dina bilder.
 
 ```html
 <article>
