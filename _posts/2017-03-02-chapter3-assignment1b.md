@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 3.1.b"
+title:  "Övning 3.1.b"
 subtitle: "Hyperlänkar"
 permalink: /chapter103/assignment1b/
 categories: "Kapitel3"

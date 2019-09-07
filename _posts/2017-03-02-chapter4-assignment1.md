@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 4.1"
+title:  "Övning 4.1"
 subtitle: "Mall"
 permalink: /chapter104/assignment1/
 categories: "Kapitel4"

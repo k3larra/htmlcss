@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 1.3"
+title:  "Övning 1.3"
 subtitle: "Indentering - Gruppering"
 permalink: /chapter101/assignment3/
 categories: "Kapitel1"

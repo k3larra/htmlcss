@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 7.1.c"
+title:  "Övning 7.1.c"
 subtitle: "Absolut länkning"
 permalink: /chapter107/assignment1c/
 categories: "Kapitel7"

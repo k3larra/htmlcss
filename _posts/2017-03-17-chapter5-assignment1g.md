@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 5.1.g"
+title:  "Övning 5.1.g"
 subtitle: "Inline element 3"
 permalink: /chapter105/assignment1g/
 categories: "Kapitel5"

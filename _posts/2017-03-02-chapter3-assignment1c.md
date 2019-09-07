@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 3.1.c"
+title:  "Övning 3.1.c"
 subtitle: "Snygga till med p-taggar och h-taggar"
 permalink: /chapter103/assignment1c/
 categories: "Kapitel3"
@@ -11,7 +11,7 @@ Användning av block-element som omsluter inline elementen a och img.
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Svar Uppgift 3</title>
+    <title>Svar Övning 3</title>
     <meta charset="utf-8">
   </head>
   <body>

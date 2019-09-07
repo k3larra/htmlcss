@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 3.1.d"
+title:  "Övning 3.1.d"
 subtitle: "Länkar till andra sidor på samma webbplats"
 permalink: /chapter103/assignment1d/
 categories: "Kapitel3"

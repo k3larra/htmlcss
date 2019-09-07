@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 2.1.c"
+title:  "Övning 2.1.c"
 subtitle: "Namnge filer"
 permalink: /chapter102/assignment1c/
 categories: "Kapitel2"

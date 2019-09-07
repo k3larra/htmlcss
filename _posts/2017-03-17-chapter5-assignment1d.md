@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 5.1.d"
+title:  "Övning 5.1.d"
 subtitle: "Block-element 3"
 permalink: /chapter105/assignment1d/
 categories: "Kapitel5"

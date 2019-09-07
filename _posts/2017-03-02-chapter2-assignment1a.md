@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Uppgift 2.1.a"
+title:  "Övning 2.1.a"
 subtitle: "Filstruktur"
 permalink: /chapter102/assignment1a/
 categories: "Kapitel2"
 tags: "answer"
 ---
-I uppgifterna arbetar vi med nedastående filstruktur, det går såklart att organisera filerna på andra sätt men för att komma igång så följer vi ett ganska strikt arbetssätt.
+I Övningerna arbetar vi med nedastående filstruktur, det går såklart att organisera filerna på andra sätt men för att komma igång så följer vi ett ganska strikt arbetssätt.
 
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter2-assignment1a.PNG" alt="Atom skärmklipp som visar filstrukturen" style="width: 20rem;"/>
 

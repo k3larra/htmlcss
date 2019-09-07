@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 3.3"
+title:  "Övning 3.3"
 subtitle: "Validering och indentering"
 permalink: /chapter103/assignment3/
 categories: "Kapitel3"

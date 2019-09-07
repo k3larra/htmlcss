@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uppgift 3.2"
+title:  "Övning 3.2"
 subtitle: "Frukt och grönt"
 permalink: /chapter103/assignment2/
 categories: "Kapitel3"
