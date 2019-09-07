@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Övning 8.1.a"
-subtitle: "E-postlänkar"
+subtitle: "Inkludera bilder och figurer"
 permalink: /chapter108/assignment1a/
 categories: "Kapitel8"
 tags: "answer"

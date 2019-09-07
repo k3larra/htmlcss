@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Övning 8.1.b"
-subtitle: "E-postlänkar"
+subtitle: "Bild-bredd"
 permalink: /chapter108/assignment1b/
 categories: "Kapitel8"
 tags: "answer"

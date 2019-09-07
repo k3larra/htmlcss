@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Övning 8.1.c"
-subtitle: "E-postlänkar"
+subtitle: "Bild-höjd"
 permalink: /chapter108/assignment1c/
 categories: "Kapitel8"
 tags: "answer"
