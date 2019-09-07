@@ -6,7 +6,7 @@ permalink: /chapter107/assignment1a/
 categories: "Kapitel7"
 tags: "answer"
 ---
-Nedanstående länkar binder ihop startsidan (index.html) med projektsidorna. Vi använder här relativa länkar som utgår från var den aktuella filen ligger. Relativa länkar har den egenskapen att man kan flytta webbsidorna så länge relationen behålls. Du kan alltså flytta hela mappen assignment1 till en annan plats i mappstrukturen. Om href-attributet inleds med ett snedstreck / så utgår länken från webbroten dvs det som anges efter webbadressen. Hade du till exempel haft webbadressen www.minakattbilder.se och länkat så här
+Nedanstående länkar binder ihop startsidan (index.html) med projektsidorna. Vi använder här relativa länkar som utgår från var den aktuella filen ligger. Relativa länkar har den egenskapen att man kan flytta webbsidorna så länge relationen mellan dem behålls. Du kan alltså flytta hela mappen assignment1 till en annan plats i mappstrukturen. Om href-attributet inleds med ett snedstreck / så utgår länken från webbroten dvs det som anges efter webbadressen. Hade du till exempel haft webbadressen www.minakattbilder.se och länkat så här
 ```html
 <h2><a href="/myprojects/project2.html">Projekt 2</a></h2>
 ```
