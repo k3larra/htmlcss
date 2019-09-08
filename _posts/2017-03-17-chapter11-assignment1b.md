@@ -20,7 +20,7 @@ Formulär där inmatningsfälten placerats i en tabell. Detta är ett sätt att 
       <table>
         <caption><b>Logga in på Äpplemarknaden</b></caption>
         <tr>
-          <td rowspan="3"><img src="fruit-apple.jpg" width="100" height="100" alt="Äpple"></td>
+          <td rowspan="3"><img src="images/fruit-apple.jpg" width="100" height="100" alt="Äpple"></td>
           <td>
             <label for="username">Användarnamn</label>
             <input id="username" name="username">
