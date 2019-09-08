@@ -6,7 +6,7 @@ permalink: /chapter109/assignment2/
 categories: "Kapitel9"
 tags: "answer"
 ---
-Ordnad lista innanför en oordnad lista. Om du vill ändra pricke i den ordnade listan görs det via CSS. Mer om listor på MDN. [Oordnade](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul) och [ordnade](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol).
+Ordnade listor inuti en oordnad lista. Om du vill ändra pricken i den oordnade listan görs det via CSS. Mer om listor på MDN: [Oordnade](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul) och [ordnade](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol).
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="k3lara" data-slug-hash="GRKQmag" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Assignment 9.2">
   <span>See the Pen <a href="https://codepen.io/k3lara/pen/GRKQmag/">

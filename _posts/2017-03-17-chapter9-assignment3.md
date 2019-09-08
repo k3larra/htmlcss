@@ -13,4 +13,4 @@ En lite ovanligare lista där delarna kategoriseras med hjälp av indrag.
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<figcaption>Beskrivningslista där dt är en huvudkategori och dd är underkategorier.</figcaption>
+<figcaption>Beskrivningslista där dt-elementet är en huvudkategori och dd-elementet är underkategori.</figcaption>
