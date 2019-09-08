@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Övning 9.1"
+title:  "Övning 9.3"
 subtitle: "Beskrivningslistor"
-permalink: /chapter109/assignment1/
+permalink: /chapter109/assignment3/
 categories: "Kapitel9"
 tags: "answer"
 ---
