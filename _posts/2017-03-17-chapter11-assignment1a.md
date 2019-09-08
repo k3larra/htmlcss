@@ -3,7 +3,7 @@ layout: post
 title:  "Övning 11.1.a"
 subtitle: "Formulär"
 permalink: /chapter111/assignment1a/
-categories: "Kapitel111"
+categories: "Kapitel11"
 tags: "answer"
 ---
 Ett mycket enkelt formulär. Vi har utelämnat attributet `action="serverfil.php"` i form-elementet eftersom vi inte har någon server som kan ta emot det vi skickar. I stället för att använda `<label>` har vi skrivit in `value` direkt i inmatningsfälten.
