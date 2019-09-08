@@ -2,7 +2,7 @@
 layout: post
 title:  "Övning 10.1.d"
 subtitle: "Sammanslagning av kolumner"
-permalink: /chapter110/assignment1c/
+permalink: /chapter110/assignment1d/
 categories: "Kapitel10"
 tags: "answer"
 ---

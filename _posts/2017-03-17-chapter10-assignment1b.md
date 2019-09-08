@@ -6,7 +6,7 @@ permalink: /chapter110/assignment1b/
 categories: "Kapitel10"
 tags: "answer"
 ---
-Tabell med beskrivning rubriker samt tabellfot.
+Tabell med beskrivning, rubriker samt tabellfot.
 
 ```HTML
 <table>
