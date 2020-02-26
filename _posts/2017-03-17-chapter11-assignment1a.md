@@ -12,7 +12,7 @@ Ett mycket enkelt formulär. Vi har utelämnat attributet `action="serverfil.php
 <div><img src="{{ site.url | append:site.baseurl}}/assets/images/query.PNG" alt="Adressen som visar informationen som skickats." style="width:50rem;"/></div>
 Efter frågetecknet kommer informationen. I detta fall har jag anget "kl85B" som användarnamn och "qwe123" som lösenord.
 
-2: När attributet `method="post"` används blir det fel. Med matoden `post` packas informationen in i paketet som skickas till servern. Det blir fel här eftersom vi inte har någon server att skicka till.
+2: När attributet `method="post"` används blir det fel. Med metoden `post` packas informationen in i paketet som sedan skickas till servern. Det blir fel här eftersom vi inte har någon server att skicka till.
 
 ```HTML
 <form method="get">
