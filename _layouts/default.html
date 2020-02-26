@@ -4,7 +4,6 @@
   <body>
     <section class="main-and-sidebar-wrapper main-content" id="mainContent">
       <aside class="aside-bookspine" id="bookSpine">
-        {% include text-expand.html %}
           <img src="{{ site.url | append:site.baseurl}}/assets/images/spine.PNG" alt="Book frontpage"/>
       </aside>
       <nav class="navigation-assignment">
@@ -15,6 +14,9 @@
                 <li id="main-head"><span>Introduktion till</span> <br><strong>HTML</strong> och <strong>CSS</strong></li>
                 <ul>
                   <li class="nav-category" id="navAbout">Komma igång</li>
+                </ul>
+                <ul>
+                  {% include text-expand.html %}
                 </ul>
               </ul>
               </li>
