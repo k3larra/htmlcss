@@ -6,12 +6,19 @@ permalink: /chapter111/assignment2/
 categories: "Kapitel11"
 tags: "answer"
 ---
-Lite mern omfattande formulär där vi anv'änt andra metoder än tabeller för att separera elementen. `<div>` och `<p>` är blockelement som radbryter och håller ihop element till en enhet. `<p>`-elementet skapar även lite utrymme runt om. Vi har även använt `<br>`-elementet som endast infogar en rad. På ett par ställe använder vi `&nbps;` som är koden för <a href="https://en.wikipedia.org/wiki/Non-breaking_space" target="_blank">none-breaking space</a>. `&nbps;`andvänds bland annat om man vill vara säker på hur många mellanslag som läggs till. I exemplet har vi medvetet blandat olika tekniker vilket du såklart inte har gjort :).
+I denna uppgiften har vi använt andra metoder än tabeller för att separera elementen. `<div>` och `<p>` är blockelement som radbryter och håller ihop element till en enhet. `<p>` elementet skapar även lite utrymme runt om. Vi har även använt `<br>` elementet som endast infogar en rad. På ett par ställe använder vi `&nbps;` som är koden för <a href="https://en.wikipedia.org/wiki/Non-breaking_space" target="_blank">none-breaking space</a>. `&nbps;` som används till exempel om man vill vara säker på hur många mellanslag som läggs till. I exemplet har vi medvetet blandat olika tekniker vilket du såklart inte har gjort :).
 
-Attributen type=, name=, value=, id= kan vara lite förvirrande eftersom de inte behövs eftersom vi inte skickar informationen till en server. name= och value= hör ihop och meddelar till exempel servern att artist=ca om den första checkboxen klickats i. for= och id= håller ihop en label med ett input field. type= anger vilken typ av inmatning som förväntas, den blockerar inte felaktig inmatning men till exempel din browser kan föreslå inmatining av sparad epostadress. Testa gärna detta i Codepen exemplet.
+Attributen name=, value= kan vara lite förvirrande eftersom de inte behövs eftersom vi inte skickar informationen till en server. name= och value= hör ihop och meddelar till exempel servern att "artist=c"a om den första checkboxen klickats i.
+
+for= och id= håller ihop en label med ett input field.
+
+type= anger vilken typ av inmatning som förväntas, den blockerar inte felaktig inmatning men till exempel din browser kan föreslå inmatning av sparad e-postadress. Testa gärna detta i Codepen exemplet.
 
 Lägg gärna märke till att informationen skickas i klartext i en query-string när du trycker på skicka när du kör koden lokalt på din dator (Obs detta går inte att se på Codepen). Så här kan skickad information se ut:
- `index.html?artist=ca&artist=fs&firstname=Lars&lastname=Holmberg&phone=0708655345&email=k3larra%40hotmail.com&diet=veget&other_diet=Allergi+mot+paprika.&register=Skicka`  
+
+ `index.html?artist=ca&artist=fs&firstname=Lars&lastname=Holmberg&phone=0708655345&email=k3larra%40hotmail.com&diet=veget&other_diet=Allergi+mot+paprika.&register=Skicka`
+
+Denna information får sedan avkodas på serversidan i ett specialskrivet program.
 
 {% highlight html linenos%}
 <!DOCTYPE html>
@@ -78,8 +85,8 @@ Lägg gärna märke till att informationen skickas i klartext i en query-string 
       <input type="submit" name="register" value="Skicka">
     </form>
   </html>
-{% endhighlight%}
-<figcaption>Ett lite mer omfattande formulär uppdelat med `<fieldset>`.</figcaption>
+{%endhighlight%}
+<figcaption>Ett lite mer omfattande formulär uppdelat med fieldset.</figcaption>
 
   <p class="codepen" data-height="300" data-theme-id="28514" data-default-tab="html,result" data-user="k3lara" data-slug-hash="jOPwmZo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Övning 11.2">
     <span>See the Pen <a href="https://codepen.io/k3lara/pen/jOPwmZo">
