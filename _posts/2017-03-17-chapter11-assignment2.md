@@ -6,19 +6,19 @@ permalink: /chapter111/assignment2/
 categories: "Kapitel11"
 tags: "answer"
 ---
-I denna uppgiften har vi använt andra metoder än tabeller för att separera elementen. `<div>` och `<p>` är blockelement som radbryter och håller ihop element till en enhet. `<p>` elementet skapar även lite utrymme runt om. Vi har även använt `<br>` elementet som endast infogar en rad. På ett par ställe använder vi `&nbps;` som är koden för <a href="https://en.wikipedia.org/wiki/Non-breaking_space" target="_blank">none-breaking space</a>. `&nbps;` som används till exempel om man vill vara säker på hur många mellanslag som läggs till. I exemplet har vi medvetet blandat olika tekniker vilket du såklart inte har gjort :).
+I denna uppgiften har vi använt andra metoder än tabeller för att separera elementen. De vi använt är `<div>` och `<p>` som är blockelement och radbryter och håller ihop element till en enhet. `<p>` elementet skapar även lite utrymme runt om. Vi har även använt `<br>` elementet som endast infogar en radbrytning. På ett par ställe använder vi `&nbps;` som är koden för <a href="https://en.wikipedia.org/wiki/Non-breaking_space" target="_blank">none-breaking space</a>. `&nbps;` kn användas om man vill vara säker på hur många mellanslag som läggs till. I exemplet har vi medvetet blandat olika tekniker vilket du såklart inte har gjort :).
 
-Attributen name=, value= kan vara lite förvirrande eftersom de inte behövs eftersom vi inte skickar informationen till en server. name= och value= hör ihop och meddelar till exempel servern att "artist=c"a om den första checkboxen klickats i.
+Attributen `name=`, `value= kan vara lite förvirrande eftersom de inte behövs när vi inte skickar informationen till en server. `name=` och `value=` hör ihop och meddelar i detta fallet att `"artist=ca"` om den första checkboxen klickats i.
 
-for= och id= håller ihop en label med ett input field.
+`for=` och `id=` håller ihop en label med ett input field.
 
-type= anger vilken typ av inmatning som förväntas, den blockerar inte felaktig inmatning men till exempel din browser kan föreslå inmatning av sparad e-postadress. Testa gärna detta i Codepen exemplet.
+`type=` anger vilken typ av inmatning som förväntas, den blockerar inte felaktig inmatning men till exempel din browser kan föreslå inmatning av sparad e-postadress. Testa gärna detta i Codepen exemplet.
 
 Lägg gärna märke till att informationen skickas i klartext i en query-string när du trycker på skicka när du kör koden lokalt på din dator (Obs detta går inte att se på Codepen). Så här kan skickad information se ut:
 
  `index.html?artist=ca&artist=fs&firstname=Lars&lastname=Holmberg&phone=0708655345&email=k3larra%40hotmail.com&diet=veget&other_diet=Allergi+mot+paprika.&register=Skicka`
 
-Denna information får sedan avkodas på serversidan i ett specialskrivet program.
+Denna information avkodas sedan på serversidan i ett specialskrivet program.
 
 {% highlight html linenos%}
 <!DOCTYPE html>
