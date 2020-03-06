@@ -6,7 +6,7 @@ permalink: /chapter113/assignment1/
 categories: "Kapitel13"
 tags: "answer"
 ---
-I denna övning lägger vi till en externa stilmall "style.css". Att använda en extern mall gör det möjligt att kopåpla samma mall till flera sidor sam att återanvända den i olika projekt.
+I denna övning använder vi en extern stilmall "style.css". En extern mall gör det möjligt att koppla samma mall till flera sidor och gör det även enket att återanvända mallen i olika projekt.
 
 {%highlight html linenos%}
 <!DOCTYPE html >
@@ -25,7 +25,7 @@ I denna övning lägger vi till en externa stilmall "style.css". Att använda en
 </html>
 {%endhighlight%}
 
-```html
+```html linenos
 <!DOCTYPE html >
 <html lang="sv">
   <head>
