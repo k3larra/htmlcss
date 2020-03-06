@@ -6,7 +6,7 @@ permalink: /chapter113/assignment1/
 categories: "Kapitel13"
 tags: "answer"
 ---
-I denna övning använder vi en extern stilmall "style.css". En extern mall gör det möjligt att koppla samma mall till flera sidor och gör det även enket att återanvända mallen i olika projekt.
+I denna övning använder vi en extern stilmall "style.css". En extern mall gör det möjligt att koppla samma mall till flera sidor. Detta arbetsätt gör det även enkelt att återanvända mallen i olika projekt.
 
 {%highlight html linenos%}
 <!DOCTYPE html >
@@ -41,9 +41,31 @@ I denna övning använder vi en extern stilmall "style.css". En extern mall gör
   </body>
 </html>
 ```
-<figcaption>index.html med länk till ett externt css dokument.</figcaption>
+<figcaption>html-fil med länk till ett externt css dokument.</figcaption>
 
-```html
+{%highlight CSS linenos%}
+p {
+  background-color: lightgray;
+  color: gray;
+}
+h2 {
+  background-color: black;
+  color: green;
+}
+{%endhighlight%}
+
+{%highlight html linenos%}
+p {
+  background-color: lightgray;
+  color: gray;
+}
+h2 {
+  background-color: black;
+  color: green;
+}
+{%endhighlight%}
+
+```CSS
 p {
   background-color: lightgray;
   color: gray;
@@ -53,4 +75,5 @@ h2 {
   color: green;
 }
 ```
-<figcaption>En extern style.css som anger bakgrundsfärg samt förgrundsfärg för paragraf-element och rubrikniivå 2.</figcaption>
+
+<figcaption>En extern stilmall "style.css" som anger bakgrundsfärg samt förgrundsfärg för paragraf-element och rubriknivå två.</figcaption>
