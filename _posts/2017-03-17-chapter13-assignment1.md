@@ -25,7 +25,7 @@ I denna övning använder vi en extern stilmall "style.css". En extern mall gör
 </html>
 {%endhighlight%}
 
-```html linenos
+```html
 <!DOCTYPE html >
 <html lang="sv">
   <head>
