@@ -6,7 +6,7 @@ permalink: /chapter114/assignment2c/
 categories: "Kapitel14"
 tags: "answer"
 ---
-CSS som färglägger bakgrunden så storleken på elementen syns. Detta kan även göras genom att inspektera sidan. Men det blir tydligt när man gör som i nedanstående exempel.
+CSS som färglägger bakgrunden så storleken på elementen syns. Detta kan även göras genom att inspektera sidan. Men det blir extra tydligt när man gör som i nedanstående exempel.
 
 {%highlight css linenos%}
 img {
@@ -34,4 +34,4 @@ figcaption {
 }
 {%endhighlight%}
 
-<figcaption>Css regler som färglägger bakgrunden på elemt så att storleken blir tydlig. I exemplet är bredden på article elementet bortkommenterat.</figcaption>
+<figcaption>Css regler som färglägger bakgrunden på element så att storleken blir tydlig. I exemplet är bredden på article elementet bortkommenterat.</figcaption>
