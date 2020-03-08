@@ -8,7 +8,7 @@ tags: "answer"
 ---
 Nedan finns html sidan som vi skall stilsätta. Sidan använder de semantiska elementen `<main>` och `<article>`.
 
-{%highlight html% linenos}
+{%highlight html linenos%}
 <!DOCTYPE html>
 <html lang="sv">
   <head>
