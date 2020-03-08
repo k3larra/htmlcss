@@ -17,7 +17,7 @@ h2 {
 Detta skall dock undvikas eftersom de sätter "cascade" funktionaliteten ur spel. Detta diskuteras vidare i nästa kapitel.
 
 {%highlight css linenos%}
-/* Startkod så att du kan se att kopplingen mellan html-fil och stilmall fungerar.*/
+
 body {
   background-color: lightgray;
   color: black;
