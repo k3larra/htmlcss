@@ -6,20 +6,20 @@ permalink: /chapter113/assignment3/
 categories: "Kapitel13"
 tags: "answer"
 ---
-I denna övning använder vi dels en extern stilmall "style.css", intern stilsättning dessutom stilsätter vi direkt i html-koden med ett style-attribut. Vi fördjupar oss i detta är en central egenskap vid stilsättning, dels hur regler tillämpas samt hur du kan felsöka med hjälp av utvecklarverktyget.
+I denna övning använder vi extern stilmall "style.css", intern stilsättning samt stilsättning direkt i html-koden med ett style-attribut.
 
-En regel som använder style attributet för ett element läses in sist och gäller över alla tidigare regler.
+En regel som använder style attributet för ett element läses in sist och överskuggar därför alla tidigare regler.
 
-Sträva efter att bara ha regler på ett ställe, men det är praktiskt att enkelt kunna felsöka genom att stilsätta, till exempel, bakgrunden på ett element för att se hur stor plats det tar upp på en sida. Att kombinera regler som kommer från olika källor (extern, intern, inline) är centralt och det är därför stilsättningen kallas "cascade" eftersom den så att säger rinner nedåt i en kaskad.
+Sträva efter att bara ha regler på ett ställe, det är dock praktiskt att enkelt kunna felsöka genom att stilsätta, till exempel, bakgrunden på ett element för att se hur stor plats det tar upp på en sida. Att kombinera regler som kommer från olika källor (extern, intern, inline) är en central egenskap hos CSS. Denna egenskap ligger bakom att stilsättningen kallas "cascade" eftersom den, så att säga, rinner nedåt i en kaskad.
 
-Som alltid finns det undantag eller möjligheter att sätta regler ur spel, det kan göras genom att ange !important efter en regeln så här:
+Som ofta är fallet finns det undantag och möjlighet att sätta regler ur spel, det kan göras genom att ange !important efter en regeln så här:
 {%highlight css linenos%}
 h2 {
   background-color: red;
   color: cyan !important;
 }
 {%endhighlight%}
-Detta skall undvikas eftersom de sätter "cascade" funktionaliteten ur spel. Detta diskuteras vidare i nästa kapitel.
+Detta skall dock undvikas eftersom de sätter "cascade" funktionaliteten ur spel. Detta diskuteras vidare i nästa kapitel.
 
 {%highlight css linenos%}
 p {
@@ -59,9 +59,9 @@ h2 {
   </body>
 </html>
 {%endhighlight%}
-<figcaption>html-fil med länk till en extern stilmall, interna css samt inline regler med hjälp av ett "style" attribut direkt i h2 och p elementen.</figcaption>
+<figcaption>html-fil med länk till en extern stilmall, interna css-regler samt inline regler som använder style attribut direkt i h2 och p elementen.</figcaption>
 
 
 
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter13-assignment3.PNG" alt="Chrome med inspect element"/>
-<figcaption>För att se vilken regel som gäller använder du utvecklarverktyget i Chrome. I denna bild är p lementet i fokus. Till höger ser du att reglerna för background-color och color i den externa filen "style.css" är överskuggade av regler för samma element internt i "index.html". Dessa regler är i sin tur överskuggade av reglerna direkt i elementet "element.style". Observera att  det den regel som läses in sist som gäller, regeln för elementet läses alitd in sist och kan bara överskuggas genom att använda !important i slutet av en regel.</figcaption>
+<figcaption>För att se vilken regel som gäller använder du ett utvecklarverktyg, i detta fall är det webläsaren Chromes verktyg. I denna bild är p-elementet i fokus. Till höger ser du att reglerna för background-color och color i den externa filen "style.css" är överskuggade av regler för samma element internt i "index.html". Dessa regler är i sin tur överskuggade av reglerna direkt i elementet "element.style". Observera att  det den regel som läses in sist som gäller, regeln för elementet läses alltid in sist och kan bara överskuggas genom att använda !important i slutet av en regel som lästs in tidigare.</figcaption>
