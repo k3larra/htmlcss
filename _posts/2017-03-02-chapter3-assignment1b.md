@@ -24,4 +24,4 @@ Hyperlänkar eller anchor-taggar kan öppna den nya sidan i aktuell flik eller i
 {% endhighlight%}
 <figcaption>Webbsida med en bild samt två länkar, dessa öppnas i en ny flik i webbläsaren. </figcaption>
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter3-assignment1b.PNG" alt="Chrome med inspect element"/>
-<figcaption>Här syns slutresultatet, utvecklarverktyget i Chrome visar koden bakom sidan. Eftersom både img-taggen och a-taggen är inline element, det vill säge de är tänkta att visas i löptext så syns de på samma rad.</figcaption>
+<figcaption>Här syns slutresultatet, utvecklarverktyget i Chrome visar koden bakom sidan. Eftersom både img-taggen och a-taggen är inline element, det vill säga de är tänkta att visas i löptext så syns de på samma rad.</figcaption>
