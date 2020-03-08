@@ -20,4 +20,4 @@ h3 {
   text-align: center;
 }
 {%endhighlight%}
-<figcaption>Css regler</figcaption>
+<figcaption>CSS regler</figcaption>

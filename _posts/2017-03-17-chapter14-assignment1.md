@@ -9,14 +9,6 @@ tags: "answer"
 Nedan finns mallfiler för index.html och style.css som du kan kopiera och utgå från i kommande övningar.
 
 {%highlight css%}
-h2 {
-  background-color: red;
-  color: cyan !important;
-}
-{%endhighlight%}
-Detta skall dock undvikas eftersom de sätter "cascade" funktionaliteten ur spel. Detta diskuteras vidare i nästa kapitel.
-
-{%highlight css linenos%}
 /* Startkod så att du kan se att kopplingen mellan html-fil och stilmall fungerar.*/
 body {
   background-color: lightgray;
