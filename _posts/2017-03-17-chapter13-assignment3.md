@@ -6,7 +6,9 @@ permalink: /chapter113/assignment3/
 categories: "Kapitel13"
 tags: "answer"
 ---
-I denna övning använder vi dels en extern stilmall "style.css", intern stilsättning av samma element i ett `<style>` element i `<head>` elementet. Dessutom stilsätter vi direkt i html-koden med ett style-attribut. Att vi fördjupar oss i detta är på grund av att det är centralt att känna till hur regler tillämpas samt hur du kan felsöka med hjälp av utvecklarverktyget. In regel som använder style attributet för ett element läses in sist och gäller över alla tidigare regler.
+I denna övning använder vi dels en extern stilmall "style.css", intern stilsättning dessutom stilsätter vi direkt i html-koden med ett style-attribut. Vi fördjupar oss i detta är en central egenskap vid stilsättning, dels hur regler tillämpas samt hur du kan felsöka med hjälp av utvecklarverktyget.
+
+En regel som använder style attributet för ett element läses in sist och gäller över alla tidigare regler.
 
 Sträva efter att bara ha regler på ett ställe, men det är praktiskt att enkelt kunna felsöka genom att stilsätta, till exempel, bakgrunden på ett element för att se hur stor plats det tar upp på en sida. Att kombinera regler som kommer från olika källor (extern, intern, inline) är centralt och det är därför stilsättningen kallas "cascade" eftersom den så att säger rinner nedåt i en kaskad.
 
@@ -57,9 +59,9 @@ h2 {
   </body>
 </html>
 {%endhighlight%}
-<figcaption>html-fil med länk till en extern stilmall, interna css samt inline regler med hjälp av ett "style" attribut direkt i `<h2>` och `<p>` elementen.</figcaption>
+<figcaption>html-fil med länk till en extern stilmall, interna css samt inline regler med hjälp av ett "style" attribut direkt i h2 och p elementen.</figcaption>
 
 
 
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter13-assignment3.PNG" alt="Chrome med inspect element"/>
-<figcaption>För att se vilken regel som gäller använder du utvecklarverktyget i Chrome. I denna bild är `<p>` lementet i fokus. Till höger ser du att reglerna för background-color och color i den externa filen "style.css" är överskuggade av regler för samma element internt i "index.html". Dessa regler är i sin tur överskuggade av reglerna direkt i elementet "element.style". Observera att  det den regel som läses in sist som gäller, regeln för elementet läses alitd in sist och kan bara överskuggas genom att använda !important i slutet av en regel.</figcaption>
+<figcaption>För att se vilken regel som gäller använder du utvecklarverktyget i Chrome. I denna bild är p lementet i fokus. Till höger ser du att reglerna för background-color och color i den externa filen "style.css" är överskuggade av regler för samma element internt i "index.html". Dessa regler är i sin tur överskuggade av reglerna direkt i elementet "element.style". Observera att  det den regel som läses in sist som gäller, regeln för elementet läses alitd in sist och kan bara överskuggas genom att använda !important i slutet av en regel.</figcaption>

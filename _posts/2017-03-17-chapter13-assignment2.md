@@ -53,4 +53,4 @@ h2 {
 
 
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter13-assignment2.PNG" alt="Chrome med inspect element"/>
-<figcaption>För att se vilken regel som gäller använder du utvecklarverktyget i Chrome. I denna bild är ``<h2>`` elementet i fokus. Till höger ser du att reglerna för background-color och color i den externa filen "style.css" är överskuggade av regler för samma element internt i "index.html". Observera att i detta fall är det den regel som läses in sist som gäller.</figcaption>
+<figcaption>För att se vilken regel som gäller använder du utvecklarverktyget i Chrome. I denna bild är h2 elementet i fokus. Till höger ser du att reglerna för background-color och color i den externa filen "style.css" är överskuggade av regler för samma element internt i "index.html". Observera att i detta fall är det den regel som läses in sist som gäller.</figcaption>
