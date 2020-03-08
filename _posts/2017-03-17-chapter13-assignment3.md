@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Övning 13.2"
+title:  "Övning 13.3"
 subtitle: "Intern CSS fil"
-permalink: /chapter113/assignment2/
+permalink: /chapter113/assignment3/
 categories: "Kapitel13"
 tags: "answer"
 ---
