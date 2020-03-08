@@ -19,5 +19,5 @@ article {
 h3 {
   text-align: center;
 }
-<figcaption>Css regler</figcaption>
 {%endhighlight%}
+<figcaption>Css regler</figcaption>

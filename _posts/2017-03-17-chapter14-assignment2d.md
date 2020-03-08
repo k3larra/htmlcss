@@ -25,5 +25,5 @@ h3 {
 figure {
   width: 200px;
 }
-<figcaption>Css regler som färglägger bakgrunden på elemt så att storleken blir tydlig. I exemplet är bredden på article elementet bortkommenterat.</figcaption>
 {%endhighlight%}
+<figcaption>Css regler som färglägger bakgrunden på elemt så att storleken blir tydlig. I exemplet är bredden på article elementet bortkommenterat.</figcaption>
