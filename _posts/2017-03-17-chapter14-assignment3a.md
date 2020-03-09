@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Övning 14.3.a"
-subtitle: "Klasselektorer"
+subtitle: "Klass-selektorer"
 permalink: /chapter114/assignment3a/
 categories: "Kapitel14"
 tags: "answer"
 ---
-I övningen använder vi klasselektorer i stället för typselektorer. Du bör använda klasselektorer som standard eftersom de kan kopplas dynamiskt till vilka element du vill. Att använda typselektorer direkt är praktiskt i vissa fall, till exempel när du felsöker eller om du, av någon anledning, inte vill ändra i html-filen.  
+I övningen använder vi klasselektorer i stället för typselektorer. Du bör använda klasselektorer som standard eftersom de kan kopplas dynamiskt till vilka element du vill. Att använda typselektorer direkt är praktiskt i vissa fall, till exempel när du felsöker eller om du, av någon anledning, inte vill ändra i html-filen.
 
 {%highlight css linenos%}
 /*För att se till att alla produktbilder blir lika stora oberoende av
