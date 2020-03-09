@@ -4,19 +4,23 @@ ursprunglig storlek anger vi storleken här*/
   width: 200px;
   height: 175px;
 }
-/*Vi ger article elementen samma bredd så att det är ungefär like stor ram
-runt dem.*/
-.product_article {
-  width: 280px;
-  background-color: lightgray;
-}
 .product_h3 {
   text-align: center;
 }
 .product_figure {
   width: 200px;
 }
+/*Vi ger article elementen samma bredd så att det är ungefär like stor ram
+runt dem.*/
+.product_article {
+  width: 280px;
+  background-color: lightgray;
+}
 article {
   width: 280px;
   background-color: black;
+}
+.product_article_2 {
+  width: 280px;
+  background-color: lightblue;
 }
