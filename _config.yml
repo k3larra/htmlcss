@@ -3,6 +3,6 @@ name: "Lars Holmberg"
 title: "HTML and CSS"
 description: "Assignments and Solutions"
 repository: "k3larra/htmlcss"
-gems: ['jekyll-github-metadata']
+plugins: ['jekyll-github-metadata']
 baseurl: "/htmlcss"
 excerpt_separator: <!--more-->
