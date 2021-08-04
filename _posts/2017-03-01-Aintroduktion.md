@@ -14,7 +14,7 @@ Efterhand som du arbetar med boken blir du mer och mer oberoende av startpaketet
 
 <img src="{{ site.url | append:site.baseurl}}/assets/images/front.PNG" alt="Chrome med inspect element" style= "max-width:20rem; margin:0 auto; display:block;"/>
 
-{% include text-expand.html %}
+<!--{% include text-expand.html %}-->
 
 
 Ladda ner övningsspaketet här
