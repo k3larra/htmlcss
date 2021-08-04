@@ -1,27 +1,21 @@
 body {
   background-color: lightgray;
 }
-
 header {
   background-color: darkorange;
 }
-
 nav {
   background-color: steelblue;
 }
-
 main {
   background-color: deeppink;
 }
-
 section {
   background-color: gray;
 }
-
 footer {
   background-color: darkslategray;
 }
-
 aside {
   background-color: limegreen;
 }
