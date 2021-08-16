@@ -6,11 +6,11 @@ permalink: /about/1
 tags: "intro"
 ---
 
-Välkomna till webbsajten kopplad till boken Introduktion till CSS och HTML. Här hittar du lösningar till övningarna och en del annat material. Vi kommer även att lägga in korrigeringar och alternativa lösningar om det behövs.
+Välkomna till webbsajten kopplad till boken **Introduktion till CSS och HTML**. Här hittar du lösningar och kommentarer till övningarna. Vi kommer även att lägga in korrigeringar och alternativa lösningar efter hand.
 
-Lösningarna utgår från ett startpaket som du kan ladda ner nedan. Detta paket gör det enklare att komma igång och du förhoppningsvis undiker du att fastna på onödiga problem.
+Lösningarna utgår från ett startpaket som du kan ladda ner nedan. Detta paket gör det enklare att komma igång och gör att du förhoppningsvis undviker du att fastna i början.
 
-Efterhand som du arbetar med boken blir du mer och mer oberoende av startpaketet, men i vissa övningar får du en del startfiler för att kunna fokusera på de för övningen centrala kunskaperna.
+Efterhand som du arbetar med boken kommer du gradvis att bli oberoende av startpaketet, dock finns det startfiler till flera övningar som vi skapat för att du ska kunna fokusera på de för den aktuella övningen centrala kunskaperna.
 
 <img src="{{ site.url | append:site.baseurl}}/assets/images/front.PNG" alt="Chrome med inspect element" style= "max-width:20rem; margin:0 auto; display:block;"/>
 
