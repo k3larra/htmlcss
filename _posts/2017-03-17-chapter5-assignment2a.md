@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Övning 5.1.a"
+title:  "Övning 5.2.a"
 subtitle: "Rubriker"
 permalink: /chapter105/assignment2a/
 categories: "Kapitel5"
