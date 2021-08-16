@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Övning 6.1.b"
+title:  "Övning 5.1.b"
 subtitle: "Semantisk uppmärkning"
-permalink: /chapter106/assignment1b/
-categories: "Kapitel6"
+permalink: /chapter105/assignment2b/
+categories: "Kapitel5"
 tags: "answer"
 ---
 <p data-height="600" data-theme-id="light" data-slug-hash="GWYdVa" data-default-tab="html,result" data-user="k3lara" data-embed-version="2" data-pen-title="Övning 6.1.b" class="codepen">See the Pen <a href="http://codepen.io/k3lara/pen/GWYdVa/">Övning 6.1.b</a> by Lars Holmberg (<a href="http://codepen.io/k3lara">@k3lara</a>) on <a href="http://codepen.io">CodePen</a>.</p>

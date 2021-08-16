@@ -8,4 +8,4 @@ tags: "answer"
 ---
 <p data-height="720" data-theme-id="light" data-slug-hash="MpPYrj" data-default-tab="html,result" data-user="k3lara" data-embed-version="2" data-pen-title="Övning5.1.e" class="codepen">See the Pen <a href="http://codepen.io/k3lara/pen/MpPYrj/">Övning5.1.e</a> by Lars Holmberg (<a href="http://codepen.io/k3lara">@k3lara</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-<figcaption>Tre stycken länkar som omsluter en del av texten. En av dem har attributet target="_blank" och öppnar en länk i en ny flik de andra har standarbeteendet som är att öppna sidan i samma flik.  </figcaption>
+<figcaption>Tre länkar (a-taggar) som omsluter en del av texten. En av a-taggarna har attributet target="_blank" och öppnar en länk i en ny flik de andra har standarbeteendet som är att öppna sidan i samma flik.  </figcaption>
