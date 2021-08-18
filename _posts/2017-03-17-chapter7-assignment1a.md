@@ -29,7 +29,7 @@ måste ligga som en undermapp till den filen (index.html i detta fall) som du l�
     <h2><a href="myprojects/project3.html">Projekt 3</a></h2>
 </body>
 ```
-<figcaption>Här visas bodydelen av startsidan lägg märke till att det inte spelar någon roll här om a-taggen ligger runt h2-taggen eller ej. Det går att lägga a-taggen runt flera element som en bild och en bildtext.</figcaption>
+<figcaption>Här visas bodydelen av startsidan, lägg märke till att det inte spelar någon roll här om a-taggen ligger runt h2-taggen eller ej. Det går att lägga a-taggen runt flera element som en bild och en bildtext.</figcaption>
 <p></p>
 
 ```html
