@@ -17,4 +17,4 @@ Vad händer om du lägger alla img taggar ovanför varandra i ett `<article>` el
   <img src="images/forrest4.gif" alt="Animation av en man som springer i skogen." width="200" >
 </article>
 ```
-<figcaption>Vad händer om du lägger in bilderna så här och inte i vars ett `<article>` element.</figcaption>
+<figcaption>Vad händer om du lägger in bilderna så här och inte i vars ett article-element.</figcaption>

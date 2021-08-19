@@ -17,4 +17,4 @@ Du bör tänka som så att det som står i `alt` attributet syns när man rör m
   </figure>
 </article>
 ```
-<figcaption>Ett figur-element med bild där alt-attributet beskriver det som syns på bilden och där figcaption-elementet kopplar bilden till ett sammanhang.</figcaption>
+<figcaption>Ett figure-element med bild där alt-attributet beskriver det som syns på bilden och där figcaption-elementet kopplar bilden till ett sammanhang.</figcaption>
