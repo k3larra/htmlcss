@@ -6,9 +6,9 @@ permalink: /chapter111/assignment2/
 categories: "Kapitel11"
 tags: "answer"
 ---
-I denna uppgiften har vi använt andra metoder än tabeller för att separera elementen. De vi använt är `<div>` och `<p>` som är blockelement och radbryter och håller ihop element till en enhet. `<p>` elementet skapar även lite utrymme runt om. Vi har även använt `<br>` elementet som endast infogar en radbrytning. På ett par ställe använder vi `&nbps;` som är koden för <a href="https://en.wikipedia.org/wiki/Non-breaking_space" target="_blank">none-breaking space</a>. `&nbps;` kn användas om man vill vara säker på hur många mellanslag som läggs till. I exemplet har vi medvetet blandat olika tekniker vilket du såklart inte har gjort :).
+I denna uppgiften har vi använt andra metoder än tabeller för att separera elementen. De vi använt är `<div>` och `<p>` som är blockelement och radbryter och håller ihop element till en enhet. `<p>` elementet skapar även lite utrymme runt om. Vi har även använt `<br>` elementet som endast infogar en radbrytning. På ett par ställe använder vi `&nbps;` som är koden för <a href="https://en.wikipedia.org/wiki/Non-breaking_space" target="_blank">none-breaking space</a>. `&nbps;` som kan användas om man vill vara säker på hur många mellanslag som läggs till. I exemplet har vi medvetet blandat olika tekniker vilket du såklart inte har gjort :).
 
-Attributen `name=`, `value= kan vara lite förvirrande eftersom de inte behövs när vi inte skickar informationen till en server. `name=` och `value=` hör ihop och meddelar i detta fallet att `"artist=ca"` om den första checkboxen klickats i.
+Attributen `name=`, `value=` kan vara lite förvirrande eftersom de inte behövs när vi inte skickar informationen till en server. `name=` och `value=` hör ihop och meddelar i detta fallet att `"artist=ca"` dvs att den första checkboxen klickats i.
 
 `for=` och `id=` håller ihop en label med ett input field.
 

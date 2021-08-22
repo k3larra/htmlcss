@@ -6,7 +6,7 @@ permalink: /chapter112/assignment1/
 categories: "Kapitel12"
 tags: "answer"
 ---
-Det finns ett antal sidor på nätet där du kan hämta innehåll genom att använda ett `<video>` element. Om man hämtar filer från inte betrodda källor kan dessa innehålla virus eller så kan innehållet bytas ut av den som sköter servern till något man absolut inte vill visa på sin sida. De som distribuerar material mer seriöst vill ha bättre kontroll över innehållet tillåter endast visning via deras egen uppspelningsenhet. Nedan visas hur material från YouTube bäddas in i sidan.
+Det finns ett antal sidor på nätet där du kan hämta innehåll genom att använda ett `<video>` element. Om man hämtar filer från inte betrodda källor kan dessa innehålla virus eller så kan innehållet bytas ut av den som sköter servern till något man absolut inte vill visa på sin sida. De som distribuerar material mer seriöst vill ha bättre kontroll över innehållet och tillåter endast visning via deras egen uppspelningsenhet. Nedan visas hur material från YouTube bäddas in i sidan.
 
 På YouTube högerklickar man på filmen och väljer kopiera inbäddningskod för att få tillgång till koden nedan.
 

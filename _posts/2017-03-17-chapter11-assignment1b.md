@@ -6,7 +6,7 @@ permalink: /chapter111/assignment1b/
 categories: "Kapitel11"
 tags: "answer"
 ---
-Formulär där inmatningsfälten placerats i en tabell. Detta är ett sätt att organisera delarna i ett formulär. I boken används `<div>` taggar att lägga elementen i, det är egentligen en bättre lösning men det kräver lite CSS som gör att `<div>`-boxarna kan flyttas runt. Tabeller är en central komponent men används inte i samma utsträckning som innan HTML5 med semantisk uppmärkning introducerades(Se kapitel 5). Det beror främst på att det är svårare att göra tabeller som är responsiva så att element kan flytta runt när man surfar från en liten skärm.
+Formulär där inmatningsfälten placerats i en tabell. Detta är ett, av många möjliga, sätt att organisera delarna i ett formulär. I boken används `<div>` taggar att lägga elementen i, det är egentligen en bättre lösning, men det kräver lite CSS som gör att `<div>`-boxarna kan flyttas runt. Tabeller är en central komponent men används inte i samma utsträckning som tidigare innan HTML5 med semantisk uppmärkning introducerades (Se kapitel 5). Det beror främst på att det är svårare att göra tabeller som är responsiva så att element kan flytta runt när man basöker sidan från en liten skärm.
 
 ```HTML
 <!DOCTYPE html>
