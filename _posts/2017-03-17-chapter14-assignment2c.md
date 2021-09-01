@@ -34,4 +34,4 @@ figcaption {
 }
 {%endhighlight%}
 
-<figcaption>Css regler som färglägger bakgrunden på element så att storleken blir tydlig. I exemplet är bredden på article elementet bortkommenterat.</figcaption>
+<figcaption>CSS regler som färglägger bakgrunden på element så att storleken blir tydlig. I exemplet är bredden på article elementet bortkommenterat.</figcaption>

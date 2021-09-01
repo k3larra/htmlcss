@@ -48,7 +48,7 @@ h2 {
   </body>
 </html>
 {%endhighlight%}
-<figcaption>html-fil med länk till en extern stilmall och med interna css regler i style-elementet.</figcaption>
+<figcaption>HTML-fil med länk till en extern stilmall och med interna css regler i style-elementet.</figcaption>
 
 
 

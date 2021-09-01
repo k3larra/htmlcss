@@ -51,4 +51,4 @@ Nedan finns html sidan som vi skall stilsätta. Sidan använder de semantiska el
   </body>
 </html>
 {%endhighlight%}
-<figcaption>Html koden index.html.</figcaption>
+<figcaption>HTML koden i index.html.</figcaption>

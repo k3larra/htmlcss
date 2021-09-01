@@ -10,7 +10,7 @@ I denna övning använder vi extern stilmall "style.css", intern stilsättning s
 
 En regel som använder style attributet för ett element läses in sist och överskuggar därför alla tidigare regler.
 
-Sträva efter att bara ha regler på ett ställe, det är dock praktiskt att enkelt kunna felsöka genom att stilsätta, till exempel, bakgrunden på ett element för att se hur stor plats det tar upp på en sida. Att kombinera regler som kommer från olika källor (extern, intern, inline) är en central egenskap hos CSS. Denna egenskap ligger bakom att stilsättningen kallas "cascade" eftersom den, så att säga, rinner nedåt i en kaskad.
+Sträva efter att bara ha regler på ett ställe, det är dock praktiskt att enkelt kunna felsöka genom att stilsätta, till exempel, bakgrunden på ett element för att se hur stor plats det tar på en sida. Att kombinera regler som kommer från olika källor (extern, intern, inline) är en central egenskap hos CSS. Denna egenskap ligger bakom att stilsättningen kallas "cascade" eftersom den, så att säga, rinner nedåt i en kaskad.
 
 Som ofta är fallet finns det undantag och möjlighet att sätta regler ur spel, det kan göras genom att ange !important efter en regeln så här:
 {%highlight css linenos%}
@@ -59,7 +59,7 @@ h2 {
   </body>
 </html>
 {%endhighlight%}
-<figcaption>html-fil med länk till en extern stilmall, interna css-regler samt inline regler som använder style attribut direkt i h2 och p elementen.</figcaption>
+<figcaption>HTML-fil med länk till en extern stilmall, interna css-regler samt inline regler som använder style attribut direkt i h2 och p elementen.</figcaption>
 
 
 

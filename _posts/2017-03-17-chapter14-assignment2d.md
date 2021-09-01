@@ -6,7 +6,7 @@ permalink: /chapter114/assignment2d/
 categories: "Kapitel14"
 tags: "answer"
 ---
-Kommenterad CSS kod för denna övning. Resultatet är inte så snyggt eftersom vi inte styrt till exempel avståndet ovanför Äpple och under texten för att skapa rumd. Vi återkommer till det i senare uppgifter. Att skala bilderna på det sätt vi gör här är inte heller så bra. Det kan innebära att en mycket stor bild skalas ner och blir liten, detta påverkar tiden det tar att ladda en sida. Det är bätre att skapa exakt de storlekar som behövs.
+Kommenterad CSS kod för denna övning. Resultatet är inte så snyggt eftersom vi inte styrt till exempel avståndet ovanför Äpple och under texten för att skapa utrymme. Vi återkommer till det i senare uppgifter. Att skala bilderna på det sätt vi gör här är inte heller så bra. Det kan innebära att en mycket stor bild skalas ner och blir liten, detta påverkar tiden det tar att ladda en sida. Det är bättre att skapa exakt de storlekar som behövs.
 
 {%highlight css linenos%}
 /*För att se till att alla bilder blir lika stora oberoende av ursprunglig storlek anger vi storleken här*/

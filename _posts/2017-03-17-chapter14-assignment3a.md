@@ -6,7 +6,7 @@ permalink: /chapter114/assignment3a/
 categories: "Kapitel14"
 tags: "answer"
 ---
-I övningen använder vi klasselektorer i stället för typselektorer. Du bör använda klasselektorer som standard eftersom de kan kopplas dynamiskt till vilka element du vill. Att använda typselektorer direkt är praktiskt i vissa fall, till exempel när du felsöker eller om du, av någon anledning, inte vill ändra i html-filen.
+I övningen använder vi klass-selektorer i stället för typ-selektorer. Du bör använda klass-selektorer som standard eftersom de kan kopplas dynamiskt till vilka element du vill. Att använda typ-selektorer direkt är praktiskt i vissa fall, till exempel när du felsöker eller om du, av någon anledning, inte vill eller kan ändra i html-filen.
 
 {%highlight css linenos%}
 /*För att se till att alla produktbilder blir lika stora oberoende av
@@ -28,7 +28,7 @@ runt dem.*/
   width: 200px;
 }
 {%endhighlight%}
-<figcaption>Css regler för uppgift 14.3.a.</figcaption>
+<figcaption>style.css regler för uppgift 14.3.a.</figcaption>
 
 {%highlight html linenos%}
 <!DOCTYPE html>

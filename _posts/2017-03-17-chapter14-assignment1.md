@@ -15,7 +15,7 @@ body {
   color: black;
 }
 {%endhighlight%}
-<figcaption>Extern mallfil för stilmall placera koden i en fil som du kallar style.css.</figcaption>
+<figcaption>Extern mallfil för stilmall, placera koden i en fil som du kallar style.css.</figcaption>
 
 {%highlight html%}
 <!DOCTYPE html>
