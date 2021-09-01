@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Övning 12.4"
-subtitle: "Pdf"
+subtitle: "PDF"
 permalink: /chapter112/assignment4/
 categories: "Kapitel12"
 tags: "answer"
