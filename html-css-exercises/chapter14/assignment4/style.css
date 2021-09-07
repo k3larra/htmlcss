@@ -29,14 +29,14 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-#orange{
-    background-color: orange;
-}
 #apple{
     background-color: green;
 }
 #lemon{
     background-color: yellow;
+}
+#orange{
+    background-color: orange;
 }
 
 .product_h3 {

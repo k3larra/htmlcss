@@ -6,7 +6,7 @@ permalink: /chapter114/assignment3c/
 categories: "Kapitel14"
 tags: "answer"
 ---
-I denna uppgift visar vi specificitet för typ-selektorer,klass-selektorer och style-attribut. Genom inspektion med ett utvecklarverktyg kan du se vilka regler som slår igenom.
+I denna uppgift visar vi specificitet för typ-selektorer, klass-selektorer och style-attribut. Genom inspektion med ett utvecklarverktyg kan du se vilka regler som slår igenom.
 
 {%highlight html linenos%}
 <article style="background-color: gold" class="product_article product_article_2" >
@@ -38,4 +38,4 @@ article {
 <figcaption>Css regler kopplade till article-elementet</figcaption>
 
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter14_assignment3c.PNG" alt="Chrome med inspect element"/>
-<figcaption>Inline CSS har högst prioritet, i bilden ovan så överskuggar style-attributet både typselektorn och klass-selektorn. </figcaption>
+<figcaption>Inline CSS har högst prioritet, i bilden ovan så överskuggar style-attributet både typ-selektorn och klass-selektorn. </figcaption>

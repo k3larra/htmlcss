@@ -1,0 +1,5 @@
+/* Startkod så att du kan se att kopplingen mellan html-fil och stilmall fungerar.*/
+body {
+  background-color: lightgray;
+  color: black;
+}
