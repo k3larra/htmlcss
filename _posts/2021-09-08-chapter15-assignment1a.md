@@ -6,7 +6,7 @@ permalink: /chapter115/assignment1a/
 categories: "Kapitel15"
 tags: "answer"
 ---
-Nedan visas koden för hela sidan. <article> fyller ut hela bredden på Viewport som standard, det kan du se i inspektera verktyget där det anges display: block;. Om du i stället anger display:inline; för article blir <article> ett inline element. Skalar du bilderna så att de tar mindre än 50% kommer det att få plats flera bilder än en per rad.  
+Nedan visas koden för hela sidan. <article> fyller ut hela bredden på visningsytan (Viewport), det kan du se i inspektera verktyget där det anges display: block;. Om du i stället anger display:inline; för article blir <article> ett inline element. Skalar du bilderna så att de tar mindre än 50% kommer det att få plats flera bilder än en per rad.  
 
 Utforska gärna hur webbsidan ser ut på olika telefonmodeller i både porträtt och landskaps vy.
 
@@ -46,7 +46,7 @@ Utforska gärna hur webbsidan ser ut på olika telefonmodeller i både porträtt
 </body>
 </html>
 {%endhighlight%}
-<figcaption>article-elemetet med CSS kopplat till en ID-selektor</figcaption>
+<figcaption>Html background</figcaption>
 {%highlight css linenos%}
 .article-properties{
   background-color: lightseagreen;
@@ -56,6 +56,6 @@ Utforska gärna hur webbsidan ser ut på olika telefonmodeller i både porträtt
     width: 50%;
 }
 {%endhighlight%}
-<figcaption>CSS regel kopplade via ID selektorn till article-elementet</figcaption>
+<figcaption>CSS</figcaption>
 <img src="{{ site.url | append:site.baseurl}}/assets/images/chapter15-assignment1a.PNG" alt="Chrome med inspektera verktyget"/>
 <figcaption>I inspektera verktyget kan vi emulera hur resultatet ser ut på en telefon, lägg märke till att den andra äpplebilden är pixlig på grund av att den inte har tillräcklig upplösning för den storlek den är skalad till (bilden är i detta fall 64x43px men behöver vara 490x321px för att visas oskarp.) </figcaption>

@@ -8,7 +8,7 @@ tags: "answer"
 ---
 I nedanstående kod använder vi rem som enhet för att relatera storleken till standardstorleken för text på sidan. Använder du em så är storleken relativt föräldra-elementet och då blir det lite mer att räkna på.
 
-För typselektorer använder vi syntax för barnselektorer ___ul ul li___ där det är ett li-element inuti ett ul-element som i sin tur ligger i ett ul-element. Denna regel har då högre specificitet än ___li___ och därför gäller den. I den nedre listan, den med klasselektorer, är dessa regler mer specifika än typselektorer, och därför gäller dessa. Titta gärna på detta i inspektera-verktyget i din webbläsare.
+För typselektorer använder vi syntax för barnselektorer ___ul ul li___ det vill säga: ett li-element inuti ett ul-element som i sin tur ligger i ett ul-element. Denna regel har då högre specificitet än ___li___ och därför gäller den. I den nedre listan, den med klasselektorer, är dessa regler mer specifika än typselektorer, och därför gäller dessa. Titta gärna på detta i inspektera-verktyget i din webbläsare.
 
 Ett val mellan typselektorer och klasselektorer är delvis en smaksak, vill göra ändringar som gäller, till exempel, alla listor är klass-selektorer bra. Det kan vara så att att du alltid vill rendera inre listor på ett annat sätt än yttre. Då behöver du inte komma ihåg ett klassnamn utan det fungerar direkt.
 
