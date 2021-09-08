@@ -1,0 +1,9 @@
+.article-properties{
+  background-color: lightseagreen;
+  height:3rem;
+  width: 40%;
+}
+/*Skala bilder till halva bredden*/
+.img-properties{
+  width: 40%;
+}
