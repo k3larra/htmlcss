@@ -1,0 +1,49 @@
+
+/* Ange att alla element skall inkludera padding och kantlinje för dimensioner */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  color: black;
+}
+
+.image-properties{
+  width:64px;
+  height:42px;
+}
+
+.article-properties{
+  display: inline-block;
+  width:5.125rem;
+  /* height:5rem; */
+  padding:0.5rem;
+  margin:0.25rem;
+  border:1px solid black;
+  border-radius: 2px;
+  background-color: WhiteSmoke;
+}
+
+
+
+
+/* *{
+  box-sizing: border-box;
+} */
+/*section{
+  font-size: 0px;
+}*/
+/* img{
+  width:64px;
+  height:42px;
+}
+
+article{
+  width:4rem;
+  padding:0.5rem;
+  margin:1rem;
+  border:1px solid black;
+  background-color: WhiteSmoke;
+} */
+  /* width:5.125rem; */
