@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Övning 16.3"
+title:  "Övning 16.4"
 subtitle: "Float"
-permalink: /chapter116/assignment3/
+permalink: /chapter116/assignment4/
 categories: "Kapitel16"
 tags: "answer"
 ---
-I CSS koden nedan använder vi .hover på article elementen och flyttar positionen relativt utgångsläget. 
+I CSS koden nedan använder vi .hover på article elementen och flyttar positionen relativt utgångsläget.
 
 {%highlight css linenos%}
 

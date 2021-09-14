@@ -49,5 +49,5 @@ body {
 {%endhighlight%}
 <figcaption>CSS för bilder och article</figcaption>
 
-<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter16-assignment1a.PNG" alt="Inspektera verktyget"/>
+<img src="{{ site.url | append:site.baseurl}}/assets/images/chapter16_assignment1a.PNG" alt="Inspektera verktyget"/>
 <figcaption>Dimensionerna på article elementet i inspektera verktyget i Chrome</figcaption>
