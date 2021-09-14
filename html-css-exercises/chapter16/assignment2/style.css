@@ -14,10 +14,10 @@ body {
   height:42px;
 }
 
+/*Display: inline-block; innebär att elementen hamnar på samma rad*/
 .article-properties{
   display: inline-block;
   width:5.125rem;
-  /* height:5rem; */
   padding:0.5rem;
   margin:0.25rem;
   border:1px solid black;

@@ -6,10 +6,10 @@ permalink: /chapter116/assignment1a/
 categories: "Kapitel16"
 tags: "answer"
 ---
-Nedan har vi använt CSS-klasser för att tilldela egenskaper (i detta begränsade exempel går det lika bra att tilldela egenskaper direkt till typselektorer). Vi anger bildstorleken i px för att skalningen skall ske till jämna pixlar, samma sak gäller för kantlinjen. Det går även att ange detta i rem, eftersom 1 rem som standard är 16 px så skulle bildbredden bli 4rem för att motsvara 64px. Detta förklarar i sin tur varför vi angett bredden på article till 4rem, som motsvarar bredden på innehållet i standard boxmodellen (Se avsnitt 16.5).
+Nedan har vi använt CSS-klasser för att tilldela egenskaper (i detta begränsade exempel går det lika bra att tilldela egenskaper direkt till typselektorer). Vi anger bildstorleken i px för att skalningen skall ske till jämna pixlar, samma sak gäller för kantlinjen. Det går även att ange detta i rem, eftersom 1 rem som standard är 16 px så skulle bildbredden bli 4rem för att motsvara 64px. Detta förklarar i sin tur varför vi angett bredden på `article` till 4rem, som motsvarar bredden på innehållet i standard boxmodellen (Se avsnitt 16.5).
 Höjden 42px på bilderna har vi angett för att bilderna inte skall förvrängas så mycket, trots att de har lite olika storlek.
 
-Som du ser är det samma avstånd ovanför det första article elementet som mellan de följande, trots att det egentligen är två marginaler, en för article ovanför och en för article nedanför. Att det inte blir så beror på så kallade kollapsande marginaler, där ett designbeslut är taget som innebär att man oftast vill ha samma avstånd ovanför det första elementet som mellan elementen. Du kan läsa mer om det här [Collapsing margins](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing).  
+Som du ser är det samma avstånd ovanför det första `article` elementet som mellan de följande, trots att det egentligen är två marginaler, en för `article` ovanför och en för `article` nedanför. Att det inte blir så beror på så kallade kollapsande marginaler, där ett designbeslut är taget som innebär att man oftast vill ha samma avstånd ovanför det första elementet som mellan elementen. Du kan läsa mer om det här [Collapsing margins](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing).  
 
 {%highlight html linenos%}
 <!--More HTML code above-->
