@@ -1,0 +1,38 @@
+/*Sidmall gridlayout*/
+body {
+  height:100vh;
+  display:grid;
+  grid-template-rows: 1fr 3fr 1fr; /*sidan delas på tre delar, första tar 20% av höjden nästa 60% den sista 20% (femtedelar)*/
+  grid-template-columns: 1fr 2fr; /*Den första columnen dubbelt så stor som den andra. (tredjedelar)*/
+  gap:1rem; /*Lite avstånd mellan delarna på sidan*/
+  background-color: lightgray;
+  color: black;
+}
+/*navigation*/
+header{
+  background-color: gainsboro;
+  color: black;
+  grid-row: 1 / 2; /*Första delen, dvs slutar innan område 2 börjar*/
+  grid-column: 1 / 3; /* Innehäller alla delar slutar där område 3 skulle börja om det fanns*/
+}
+
+ aside{
+   background-color: darkgray;
+   color: black;
+   grid-row: 2 / 3;
+   grid-column: 1 / 2;
+ }
+
+ main{
+   background-color: silver;
+   color: black;
+   grid-row: 2 / 3;
+   grid-column: 2 /3;
+ }
+
+ footer{
+   background-color:ghostwhite;
+   color: black;
+   grid-row: 3 / 4;
+   grid-column: 1 /3;
+ }
