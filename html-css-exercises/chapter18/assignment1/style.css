@@ -1,0 +1,51 @@
+/* Startkod så att du kan se att kopplingen mellan html-fil och stilmall fungerar.*/
+body {
+  background-color: lightgray;
+  color: black;
+}
+
+.image-properties{
+  /*width:33vw;*/
+}
+
+#form{
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1rem;
+  background-color: gray;
+  z-index: 1;
+  padding: 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#form input{
+  margin-bottom: 1rem;
+  width:12rem;
+}
+/* #form article{
+  display:flex;
+  flex-direction: column;
+} */
+#hide-form{
+  display:none;
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 24rem;
+  height: 14rem;
+  border-radius: 1rem;
+  background-color: black;
+  opacity:0.5;
+  z-index: 2;
+}
