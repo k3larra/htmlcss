@@ -2,8 +2,8 @@
 layout: post
 title:  "Övning 19.1"
 subtitle: "Schack"
-permalink: /chapter118/assignment1b/
-categories: "Kapitel18"
+permalink: /chapter119/assignment1/
+categories: "Kapitel19"
 tags: "answer"
 ---
 Delar av koden för schackspelet. Vi använder id-selektorer för de element som det bara får finnas ett av, devs spelplan samt de olika pjäserna. Vi samlar då egenskaper i class selektorer så vi undviker att upprepa kod eftersom det försvårar felsökning samt kan ge svårfunna fel.
