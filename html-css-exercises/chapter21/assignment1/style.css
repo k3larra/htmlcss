@@ -1,0 +1,24 @@
+/*importera en serif-font från google*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+/*Sätt font samt standardfärger*/
+*{
+  font-family: 'Playfair Display', serif;
+  color: #F9C8DC;
+  background-color: #8E0039;
+}
+.article-display>p{
+  margin-bottom:0px;
+  margin-top: 0px;
+}
+/*Fär att undvika att alla <p> fär detta beteende har jag lagt dem i ett article element
+med ett unikt klassnamn*/
+.article-display>p:not(:first-child){
+  text-indent : 1.5rem;
+}
+/*Ovanstående, att välja andra elementet, kan även göras på detta sätt.
+bär väljs en paragraf som följer på en annan paragraf*/
+/*
+p+p{
+  text-indent : 1.5rem;
+}
+*/
