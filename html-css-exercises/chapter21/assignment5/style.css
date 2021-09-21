@@ -7,61 +7,18 @@
   color: #F9C8DC;
   background-color: #8E0039;
 }
-.article-display>p{
-  margin-bottom:0px;
-  margin-top: 0px;
-}
-/*välj endast de paragrafer som följer på en annan paragraf som i sin tur är ett direkt barn till article-display*/
-.article-display>p+p{
-  text-indent : 1.5rem;
-}
-h2{
-  text-decoration: overline;
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.5;
-}
-h2::before{
-  content: "\26D3";
-  color:red;
-}
-h3{
-  font-family: 'Open Sans', sans-serif; /*applicera seriffonten*/
-  color: #DA7AA1;
-  text-transform : capitalize;
-  margin-bottom: 0px;
-  text-indent : 0.1rem;
-}
-h4{
-  font-family: 'Open Sans', sans-serif;
-  color: #DA7AA1;
-  text-transform:uppercase;
-  margin-bottom: 0px;
-  text-indent : 0.4rem;
-}
-h5{
-  font-family: 'Open Sans', sans-serif;
-  color: #DA7AA1;
-  text-transform:lowercase;
-  margin-bottom: 0px;
-  text-indent : 1rem;
-}
 
-strong{
-  text-decoration: underline;
-  font-weight: 600;
+a:link {
+ color : #eb5d64 ; /* Röd textf ärg */
+ text-decoration : none ; /* Inget understreck */
 }
-del{
-  text-decoration-color: #D45B8C;
-  color: #D45B8C;
-  opacity:0.6;
+a:visited {
+ color : #000000 ; /* Svart textf ärg */
 }
-
-em{
-  font-style:normal;
-  letter-spacing: -0.05rem;
-  word-spacing: 0.5rem;
-  font-weight: bolder;
-  color: #FAC9D9;
+a:hover {
+ color : #61bda2 ; /* Turkos textf ärg */
+}
+ a:active {
+  background-color : #4dc1e9 ; /* Blå bakgrundsf ärg */
+  color : #ffffff ; /* Vit textf ärg */
 }
